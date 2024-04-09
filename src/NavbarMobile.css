@@ -1,0 +1,12 @@
+.nav-item {
+    padding: 1.6vh;
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    white-space: nowrap;
+}
+
+.active {
+    color: #152a51;
+    background-color: white;
+    border-radius: 20px;
+}
