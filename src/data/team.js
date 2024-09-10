@@ -265,7 +265,7 @@ export default [
     },
     {
         picture: "imgs/SamChowdhury.jpeg",
-        name: "Sam Chowdary",
+        name: "Sam Chowdhury",
         role: "PEY Class Rep",
         year: "2T4",
         contact: [
