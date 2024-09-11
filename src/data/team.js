@@ -269,8 +269,8 @@ export default [
         role: "PEY Class Rep",
         year: "2T4",
         contact: [
-            "E-mail: shan.jones@mail.utoronto.ca",
-            "Instagram: @purriin"
+            "E-mail: sam.chowdhury@mail.utoronto.ca",
+            "Instagram: @samn.c"
         ]
     },
     {

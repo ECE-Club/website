@@ -21,6 +21,63 @@ function Events() {
                 Upcoming Events:
             </Typography>
             <br/>
+            {/* <BrowserView>
+                <div style={{ borderRadius: "20px", background: "white", padding: "20px", margin: "10px 30px 18px 30px" }}>
+                    <Typography>
+                        <div style={{ display: "flex", alignItems: "center" }}>
+                            <div onClick={() => goToUrl("https://www.instagram.com/p/C4jd1cePoaV/")}>
+                                <img src="/imgs/event_icons/PingPong.png" style={{ width: "140px", height: "140px" }} />                        
+                            </div>
+                            <div style={{ marginLeft: "20px", width: "calc(100% - 160px)" }}>
+                                <Typography sx={{ cursor:'pointer', color: "#152a51", margin: "10px 0" }} variant="h5">
+                                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                                        <div onClick={() => goToUrl("https://www.instagram.com/p/C4jd1cePoaV/")} style={{ fontWeight: 'bold' }}> Ping Pong Tournament </div>
+                                        <div style={{ textAlign: "right" }}> March 19th, 2024 </div>
+                                    </div>
+                                </Typography>
+                                <Typography sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word" }} variant="h6">
+                                    <div style={{textAlign: "justify"}}>
+                                        A Ping Pong Tournament is happening AGAIN on March 19th at 6:10 PM in the ECE Common Room 
+                                        (BA1120). Come for some competitive fun while enjoying free pop & pizza, and battle it out 
+                                        for awesome ECE-themed prizes! Don’t want to miss the game? Sign up link is in our Linktree!
+                                    </div>
+                                </Typography>
+                            </div>
+                        </div>
+                    </Typography>
+                </div>
+            </BrowserView>
+            <MobileView>
+                <div style={{ borderRadius: "20px", background: "white", padding: "20px", margin: "10px 30px 18px 30px" }}>
+                    <Typography>
+                        <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+                            <div onClick={() => goToUrl("https://www.instagram.com/p/C4jd1cePoaV/")}>
+                                <img src="/imgs/event_icons/PingPong.png" style={{ width: "200px", height: "200px" }} />                        
+                            </div>
+                            <div style={{ marginTop: "10px", width: "100%" }}>
+                                <Typography sx={{ cursor:'pointer', color: "#152a51", margin: "5px 0" }} variant="h5">
+                                    <div onClick={() => goToUrl("https://www.instagram.com/p/C4jd1cePoaV/")} style={{ fontWeight: 'bold', textAlign: "center"}}> Ping Pong Tournament </div>
+                                </Typography>
+                                <Typography sx={{ cursor:'pointer', color: "#152a51", margin: "-10px 0" }} variant="h6">
+                                    <div style={{ textAlign: "center" }}> March 19th, 2024 </div>
+                                </Typography>
+                                <Typography sx={{ color: "#152a51", margin: "5px 8px", overflowWrap: "break-word" }} variant="h7">
+                                    <div style={{textAlign: "justify"}}>
+                                        A Ping Pong Tournament is happening AGAIN on March 19th at 6:10 PM in the ECE Common Room 
+                                        (BA1120). Come for some competitive fun while enjoying free pop & pizza, and battle it out 
+                                        for awesome ECE-themed prizes! Don’t want to miss the game? Sign up link is in our Linktree!
+                                    </div>
+                                </Typography>
+                            </div>
+                        </div>
+                    </Typography>
+                </div>
+            </MobileView> */}
+            
+            <Typography sx={{ fontWeight: 'bold', color: "white", margin: "30px 30px -20px 30px" }} variant="h6">
+                Past Events:
+            </Typography>
+            <br/>
             <BrowserView>
                 <div style={{ borderRadius: "20px", background: "white", padding: "20px", margin: "10px 30px 18px 30px" }}>
                     <Typography>
@@ -74,10 +131,6 @@ function Events() {
                 </div>
             </MobileView>
             
-            <Typography sx={{ fontWeight: 'bold', color: "white", margin: "30px 30px -20px 30px" }} variant="h6">
-                Past Events:
-            </Typography>
-            <br/>
             <BrowserView>
                 <div style={{ borderRadius: "20px", background: "white", padding: "20px", margin: "10px 30px 18px 30px" }}>
                     <Typography>
