@@ -6,41 +6,46 @@ import { BrowserView } from 'react-device-detect';
 function Events() {
 
     function goToUrl(url) {
-        window.location.replace(url);
+        window.open(url, '_blank');
     }
 
     return (
         <div>
             <Typography sx={{ color: "white", margin: "10px 30px 0 30px" }} variant="h4">
-                Events
+                Announcements
             </Typography>
-            <Typography sx={{ color: "white", margin: "10px 30px 10px 30px" }} variant="h6">
-                Explore our catalogue of upcoming and past events, showcasing a spectrum of amazing events.
-            </Typography>
-            <Typography sx={{ fontWeight: 'bold', color: "white", margin: "30px 30px -20px 30px" }} variant="h6">
-                Upcoming Events:
-            </Typography>
-            <br/>
-            {/* <BrowserView>
+            <BrowserView>
                 <div style={{ borderRadius: "20px", background: "white", padding: "20px", margin: "10px 30px 18px 30px" }}>
                     <Typography>
                         <div style={{ display: "flex", alignItems: "center" }}>
-                            <div onClick={() => goToUrl("https://www.instagram.com/p/C4jd1cePoaV/")}>
-                                <img src="/imgs/event_icons/PingPong.png" style={{ width: "140px", height: "140px" }} />                        
+                            <div onClick={() => goToUrl("https://docs.google.com/forms/d/e/1FAIpQLSfe2Fi1T1Sx8RWgKLjzIY1PtfE0xe8pYulswRiAArXemYGvdg/viewform")}>
+                                <img src="/imgs/event_icons/LockerRental.png" style={{ width: "140px", height: "140px" }} />                        
                             </div>
                             <div style={{ marginLeft: "20px", width: "calc(100% - 160px)" }}>
                                 <Typography sx={{ cursor:'pointer', color: "#152a51", margin: "10px 0" }} variant="h5">
                                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                                        <div onClick={() => goToUrl("https://www.instagram.com/p/C4jd1cePoaV/")} style={{ fontWeight: 'bold' }}> Ping Pong Tournament </div>
-                                        <div style={{ textAlign: "right" }}> March 19th, 2024 </div>
+                                        <div onClick={() => goToUrl("https://docs.google.com/forms/d/e/1FAIpQLSfe2Fi1T1Sx8RWgKLjzIY1PtfE0xe8pYulswRiAArXemYGvdg/viewform")} style={{ fontWeight: 'bold' }}> ECE Common Room Locker Rentals </div>
                                     </div>
                                 </Typography>
                                 <Typography sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word" }} variant="h6">
                                     <div style={{textAlign: "justify"}}>
-                                        A Ping Pong Tournament is happening AGAIN on March 19th at 6:10 PM in the ECE Common Room 
-                                        (BA1120). Come for some competitive fun while enjoying free pop & pizza, and battle it out 
-                                        for awesome ECE-themed prizes! Don’t want to miss the game? Sign up link is in our Linktree!
+                                        Need a spot for your stuff? ECE Club is renting lockers in the ECE Common Room (BA1120)! With only 60 lockers available, secure yours ASAP 
+                                        and share it with friends to save money! <br /> Just bring your own lock (as we won't be keeping your lock combo)🔒 Hurry before they're all gone! 💥
                                     </div>
+                                </Typography>
+                                <Typography
+                                    sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word", textDecoration: 'underline', cursor: 'pointer' }}
+                                    variant="h6"
+                                    onClick={() => goToUrl("https://docs.google.com/forms/d/e/1FAIpQLSfe2Fi1T1Sx8RWgKLjzIY1PtfE0xe8pYulswRiAArXemYGvdg/viewform")}
+                                >
+                                    Sign up today!
+                                </Typography>
+                                <Typography
+                                    sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word", textDecoration: 'underline', cursor: 'pointer' }}
+                                    variant="h6"
+                                    onClick={() => goToUrl("https://www.instagram.com/p/C_3dgc0vDrm/?hl=en")}
+                                >
+                                    Check out our Instagram Post for more info!
                                 </Typography>
                             </div>
                         </div>
@@ -51,28 +56,46 @@ function Events() {
                 <div style={{ borderRadius: "20px", background: "white", padding: "20px", margin: "10px 30px 18px 30px" }}>
                     <Typography>
                         <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-                            <div onClick={() => goToUrl("https://www.instagram.com/p/C4jd1cePoaV/")}>
-                                <img src="/imgs/event_icons/PingPong.png" style={{ width: "200px", height: "200px" }} />                        
+                            <div onClick={() => goToUrl("https://docs.google.com/forms/d/e/1FAIpQLSfe2Fi1T1Sx8RWgKLjzIY1PtfE0xe8pYulswRiAArXemYGvdg/viewform")}>
+                                <img src="/imgs/event_icons/LockerRental.png" style={{ width: "200px", height: "200px" }} />                        
                             </div>
                             <div style={{ marginTop: "10px", width: "100%" }}>
                                 <Typography sx={{ cursor:'pointer', color: "#152a51", margin: "5px 0" }} variant="h5">
-                                    <div onClick={() => goToUrl("https://www.instagram.com/p/C4jd1cePoaV/")} style={{ fontWeight: 'bold', textAlign: "center"}}> Ping Pong Tournament </div>
-                                </Typography>
-                                <Typography sx={{ cursor:'pointer', color: "#152a51", margin: "-10px 0" }} variant="h6">
-                                    <div style={{ textAlign: "center" }}> March 19th, 2024 </div>
+                                    <div onClick={() => goToUrl("https://docs.google.com/forms/d/e/1FAIpQLSfe2Fi1T1Sx8RWgKLjzIY1PtfE0xe8pYulswRiAArXemYGvdg/viewform")} style={{ fontWeight: 'bold', textAlign: "center"}}> ECE Common Room Locker Rentals </div>
                                 </Typography>
                                 <Typography sx={{ color: "#152a51", margin: "5px 8px", overflowWrap: "break-word" }} variant="h7">
                                     <div style={{textAlign: "justify"}}>
-                                        A Ping Pong Tournament is happening AGAIN on March 19th at 6:10 PM in the ECE Common Room 
-                                        (BA1120). Come for some competitive fun while enjoying free pop & pizza, and battle it out 
-                                        for awesome ECE-themed prizes! Don’t want to miss the game? Sign up link is in our Linktree!
+                                        Need a spot for your stuff? ECE Club is renting lockers in the ECE Common Room (BA1120)! With only 60 lockers available, secure yours ASAP 
+                                        and share it with friends to save money! <br /> Just bring your own lock (as we won't be keeping your lock combo)🔒 Click on this announcement to sign up today!
+                                        <br />
+                                        <div onClick={() => goToUrl("https://www.instagram.com/p/C_3dgc0vDrm/?hl=en")}>
+                                            <Typography
+                                                sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word", textDecoration: 'underline', cursor: 'pointer' }}
+                                                variant="h6"
+                                                onClick={() => goToUrl("https://www.instagram.com/p/C_3dgc0vDrm/?hl=en")}
+                                            >
+                                                Check out our Instagram Post for more info!
+                                            </Typography>
+                                        </div>
                                     </div>
                                 </Typography>
                             </div>
                         </div>
                     </Typography>
                 </div>
-            </MobileView> */}
+            </MobileView>
+
+            <br />
+            <Typography sx={{ color: "white", margin: "10px 30px 0 30px" }} variant="h4">
+                Events
+            </Typography>
+            <Typography sx={{ color: "white", margin: "10px 30px 10px 30px" }} variant="h6">
+                Explore our catalogue of upcoming and past events, showcasing a spectrum of amazing events.
+            </Typography>
+            <Typography sx={{ fontWeight: 'bold', color: "white", margin: "30px 30px -20px 30px" }} variant="h6">
+                Upcoming Events:
+            </Typography>
+            <br/>
             
             <Typography sx={{ fontWeight: 'bold', color: "white", margin: "30px 30px -20px 30px" }} variant="h6">
                 Past Events:

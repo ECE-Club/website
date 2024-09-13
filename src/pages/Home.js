@@ -5,13 +5,14 @@ import ContactCard from '../components/ContactCard.js';
 import { People } from '@mui/icons-material';
 import { Inbox } from '@mui/icons-material';
 import { Article } from '@mui/icons-material';
-import { Calendar } from 'react-big-calendar';
 import { Event } from '@mui/icons-material';
+import AnnouncementPop from '../components/AnnouncementPop.js';
 
 function Home() {
 
     return (
         <div>
+            <AnnouncementPop />
             <Typography sx={{ color: "white", margin: "10px 30px 0 30px" }} variant="h5">
                 The University of Toronto 
             </Typography>
@@ -64,7 +65,7 @@ function Home() {
                     icon = {<Event style={{fontSize:"12vh", fill: "#152a51"}} />}
                     name = "Events"
                     link = "/events"
-                    info = "Explore our catalogue of upcoming and past events!"
+                    info = "Stay updated with our latest announcements and events!"
                 />
                 <ContactCard
                     icon = {<People style={{fontSize:"12vh", fill: "#152a51"}} />}
