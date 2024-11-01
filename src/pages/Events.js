@@ -66,18 +66,22 @@ function Events() {
                                 <Typography sx={{ color: "#152a51", margin: "5px 8px", overflowWrap: "break-word" }} variant="h7">
                                     <div style={{textAlign: "justify"}}>
                                         Need a spot for your stuff? ECE Club is renting lockers in the ECE Common Room (BA1120)! With only 60 lockers available, secure yours ASAP 
-                                        and share it with friends to save money! <br /> Just bring your own lock (as we won't be keeping your lock combo)🔒 Click on this announcement to sign up today!
-                                        <br />
-                                        <div onClick={() => goToUrl("https://www.instagram.com/p/C_3dgc0vDrm/?hl=en")}>
-                                            <Typography
-                                                sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word", textDecoration: 'underline', cursor: 'pointer' }}
-                                                variant="h6"
-                                                onClick={() => goToUrl("https://www.instagram.com/p/C_3dgc0vDrm/?hl=en")}
-                                            >
-                                                Check out our Instagram Post for more info!
-                                            </Typography>
-                                        </div>
+                                        and share it with friends to save money! <br /> Just bring your own lock (as we won't be keeping your lock combo)🔒 Hurry before they're all gone! 💥
                                     </div>
+                                </Typography>
+                                <Typography
+                                    sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word", textDecoration: 'underline', cursor: 'pointer' }}
+                                    variant="h6"
+                                    onClick={() => goToUrl("https://docs.google.com/forms/d/e/1FAIpQLSfe2Fi1T1Sx8RWgKLjzIY1PtfE0xe8pYulswRiAArXemYGvdg/viewform")}
+                                >
+                                    Sign up today!
+                                </Typography>
+                                <Typography
+                                    sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word", textDecoration: 'underline', cursor: 'pointer' }}
+                                    variant="h6"
+                                    onClick={() => goToUrl("https://www.instagram.com/p/C_3dgc0vDrm/?hl=en")}
+                                >
+                                    Check out our Instagram Post for more info!
                                 </Typography>
                             </div>
                         </div>
@@ -96,6 +100,74 @@ function Events() {
                 Upcoming Events:
             </Typography>
             <br/>
+
+            <BrowserView>
+                <div style={{ borderRadius: "20px", background: "white", padding: "20px", margin: "10px 30px 18px 30px" }}>
+                    <Typography>
+                        <div style={{ display: "flex", alignItems: "center" }}> 
+                            <div onClick={() => goToUrl("https://www.instagram.com/p/DBpLPZrS1In/")}>
+                                <img src="/imgs/event_icons/HalloweenEscape.png" style={{ width: "140px", height: "140px" }} />                        
+                            </div>
+                            <div style={{ marginLeft: "20px", width: "calc(100% - 160px)" }}>
+                                <Typography sx={{ cursor:'pointer', color: "#152a51", margin: "10px 0" }} variant="h5">
+                                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                                        <div onClick={() => goToUrl("https://www.instagram.com/p/DBpLPZrS1In/")} style={{ fontWeight: 'bold' }}> Halloween Escape Room </div>
+                                        <div style={{ textAlign: "right" }}> November 8th, 2024 </div>
+                                    </div>
+                                </Typography>
+                                <Typography sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word" }} variant="h6">
+                                    <div style={{textAlign: "justify"}}>
+                                        Ready for a Spooky Challenge? 🎃🦇 Join us for the ECE Club’s Halloween Escape Room on 
+                                        NOVEMBER 8th at the ECE COMMON ROOM! Gather your friends (2-6 people) and see if you can 
+                                        make it out in time. Register now and secure your spot! 👻
+                                    </div>
+                                </Typography>
+                                <Typography
+                                    sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word", textDecoration: 'underline', cursor: 'pointer' }}
+                                    variant="h6"
+                                    onClick={() => goToUrl("https://docs.google.com/forms/d/e/1FAIpQLSeG4d8acWlP27Fpe0-R1MX02yfElDsTu-YVo3W1DYglCQvpeQ/viewform")}
+                                >
+                                    Sign up today!
+                                </Typography>
+                            </div>
+                        </div>
+                    </Typography>
+                </div>
+            </BrowserView>
+            <MobileView>
+                <div style={{ borderRadius: "20px", background: "white", padding: "20px", margin: "10px 30px 18px 30px" }}>
+                    <Typography>
+                        <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+                            <div onClick={() => goToUrl("https://www.instagram.com/p/DBpLPZrS1In/")}>
+                                <img src="/imgs/event_icons/HalloweenEscape.png" style={{ width: "200px", height: "200px" }} />                        
+                            </div>
+                            <div style={{ marginTop: "10px", width: "100%" }}>
+                                <Typography sx={{ cursor:'pointer', color: "#152a51", margin: "5px 0" }} variant="h5">
+                                    <div onClick={() => goToUrl("https://www.instagram.com/p/DBpLPZrS1In/")} style={{ fontWeight: 'bold', textAlign: "center"}}> Halloween Escape Room </div>
+                                </Typography>
+                                <Typography sx={{ cursor:'pointer', color: "#152a51", margin: "-10px 0" }} variant="h6">
+                                    <div style={{ textAlign: "center" }}> November 8th, 2024 </div>
+                                </Typography>
+                                <Typography sx={{ color: "#152a51", margin: "5px 8px", overflowWrap: "break-word" }} variant="h7">
+                                    <div style={{textAlign: "justify"}}>
+                                    Ready for a Spooky Challenge? 🎃🦇 Join us for the ECE Club’s Halloween Escape Room on 
+                                    NOVEMBER 8th at the ECE COMMON ROOM! Gather your friends (2-6 people) and see if you can 
+                                    make it out in time. Register now and secure your spot! 👻
+                                    </div>
+                                </Typography>
+                                <Typography
+                                    sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word", textDecoration: 'underline', cursor: 'pointer' }}
+                                    variant="h6"
+                                    onClick={() => goToUrl("https://docs.google.com/forms/d/e/1FAIpQLSeG4d8acWlP27Fpe0-R1MX02yfElDsTu-YVo3W1DYglCQvpeQ/viewform")}
+                                >
+                                    Sign up today!
+                                </Typography>
+                            </div>
+                        </div>
+                    </Typography>
+                </div>
+            </MobileView>
+            
             
             <Typography sx={{ fontWeight: 'bold', color: "white", margin: "30px 30px -20px 30px" }} variant="h6">
                 Past Events:
