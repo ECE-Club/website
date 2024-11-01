@@ -1,6 +1,6 @@
 export default [
     {
-        picture: "imgs/Pics of 2T4-2T5/Medina.PNG",
+        picture: "imgs/Pics of 2T4-2T5/Medina.png",
         name: "Medina Qaderi",
         role: "Co-Chair",
         year: "2T4 + PEY",
@@ -22,7 +22,7 @@ export default [
         ]
     },
     {
-        picture: "imgs/Pics of 2T4-2T5/Danelle D_Souza.JPG",
+        picture: "imgs/Pics of 2T4-2T5/Danelle D_Souza.jpg",
         name: "Danelle D'Souza",
         role: "Vice Chair",
         year: "2T6",
@@ -87,7 +87,7 @@ export default [
         ]
     },
     {
-        picture: "imgs/Pics of 2T4-2T5/Abby Lui.jpg",
+        picture: "imgs/Pics of 2T4-2T5/Abby Lui.JPG",
         name: "Abby Lui",
         role: "General Events Director",
         year: "2T8",
@@ -153,7 +153,7 @@ export default [
         ]
     },
     {
-        picture: "imgs/Pics of 2T4-2T5/Yifei Chen.jpg",
+        picture: "imgs/Pics of 2T4-2T5/Yifei Chen.JPG",
         name: "Yifei Chen",
         role: "External Relations Director",
         year: "2T8",
@@ -329,7 +329,7 @@ export default [
         ]
     },
     {
-        picture: "imgs/Pics of 2T4-2T5/Joe Dai.JPEG",
+        picture: "imgs/Pics of 2T4-2T5/Joe Dai.jpeg",
         name: "Joe Dai",
         role: "3rd Year Rep",
         year: "2T6",
