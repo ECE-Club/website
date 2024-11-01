@@ -22,7 +22,7 @@ function MeetTheTeam() {
     return (
         <div>
             <Typography sx={{ color: "white", margin: "10px 30px 0 30px" }} variant="h4">
-                Meet The Team
+                Meet The Team (2T4 - 2T5)
             </Typography>
             <Typography sx={{ color: "white", margin: "10px 30px 10px 30px" }} variant="h6">
                 More like a family than a team!

@@ -25,7 +25,17 @@ function TeamCard(props) {
             <br />
         </div>
     )
-    
+
+    let name;
+
+    if(props.name.length>17){
+        name = props.name.substring(0, 17);
+        name += "...";
+    }
+    else{
+        name = props.name;
+    }
+
     return (
         <div>
             <Dialog TransitionComponent={Transition} onClose={() => setDialog(false)} open={dialog}>
@@ -33,7 +43,7 @@ function TeamCard(props) {
                     {contactElements}
                 </DialogTitle>
             </Dialog>
-            <Card variant="elevated" sx={{ width: "250px", borderRadius:"10px", background: "white" }}>
+            <Card variant="elevated" sx={{ width: "250px", borderRadius:"10px", background: "white"}}>
                 <CardMedia
                       component="img"
                       image={props.picture}
@@ -41,17 +51,17 @@ function TeamCard(props) {
                 />
                 <CardContent sx={{width: "35vh"}}>
                     <Typography sx={{fontSize: 22}} variant="p" color="#152a51">
-                        {props.name}
+                        {name}
                     </Typography> 
                     <Typography sx={{marginLeft: "-1px", fontSize: 18, fontStyle: "italic"}} variant="h6" color="#152a51">
                         {props.year}
                     </Typography>
-                    <Typography sx={{fontSize: 24}} variant="h6" color="#152a51">
-                        {props.role}
+                    <Typography sx={{fontSize: 24, height: 48}} variant="h6" color="#152a51">
+                        {props.role} 
                     </Typography> 
                 </CardContent>
                 <CardActions>
-                    <Button size="small" onClick={() => setDialog(true)} sx={{':hover': { backgroundColor: '#050050'}, margin: "-15px auto 10px auto", backgroundColor:"#152a51"}}>
+                    <Button size="small" onClick={() => setDialog(true)} sx={{':hover': { backgroundColor: '#050050'}, margin: "20px auto 10px auto", backgroundColor:"#152a51"}}>
                         <Typography color="white">
                             CONTACT
                         </Typography> 
