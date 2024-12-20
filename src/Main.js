@@ -13,6 +13,7 @@ import NavbarMobile from './components/NavbarMobile';
 import Footer from './components/Footer';
 import './App.css';
 import Events from './pages/Events';
+import Articles from './pages/Articles';
 
 function Main() {
 
@@ -37,6 +38,8 @@ function Main() {
         <Route path="resources" element={<Resources />} />
         <Route path="eventsandmentorship" element={<EventsAndMentorship />} />
         <Route path="events" element={<Events />} />
+        <Route path="articles" element={<Articles />} />
+        
       </Routes>
       <div style={{ height: "70px"}} />
       <Footer/>
