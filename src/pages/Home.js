@@ -1,8 +1,8 @@
 import React from 'react';
-import { Typography } from '@mui/material';
+import { Paper, Typography } from '@mui/material';
 import Grid2 from '@mui/material/Unstable_Grid2';
 import ContactCard from '../components/ContactCard.js';
-import { People } from '@mui/icons-material';
+import { NewReleases, Newspaper, NewspaperOutlined, People } from '@mui/icons-material';
 import { Inbox } from '@mui/icons-material';
 import { Article } from '@mui/icons-material';
 import { Event } from '@mui/icons-material';
@@ -68,6 +68,12 @@ function Home() {
                     name = "Events"
                     link = "/events"
                     info = "Stay updated with our latest announcements and events!"
+                />
+                <ContactCard
+                    icon = {<NewspaperOutlined style={{fontSize:"12vh", fill: "#152a51"}} />}
+                    name = "Articles"
+                    link = "/articles"
+                    info = "Explore our latest articles for the best UofT experience!"
                 />
                 <ContactCard
                     icon = {<People style={{fontSize:"12vh", fill: "#152a51"}} />}

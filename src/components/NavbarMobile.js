@@ -42,7 +42,7 @@ function NavbarMobile() {
                     onClose={() => setDrawer(false)}
                 >
                     <NavLink to="events" activeClassName='active' className="nav-item"> Events </NavLink>
-                    <NavLink to="resources" activeClassName='active' className="nav-item"> Articles </NavLink>
+                    <NavLink to="articles" activeClassName='active' className="nav-item"> Articles </NavLink>
                     {/* <NavLink to="aboutus" activeClassName='active' className="nav-item"> About Us </NavLink> */}
                     <NavLink to="meettheteam" activeClassName='active' className="nav-item"> Meet The Team </NavLink>
                     {/* <NavLink to="academics" activeClassName='active' className="nav-item"> Academics </NavLink> */}

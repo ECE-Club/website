@@ -65,7 +65,7 @@ const AnnouncementPopup = () => {
             <DialogContent onClick={handleVisitAnnouncement}>
                 <Typography sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word" }} variant="h6">
                     <div style={{ display: "flex", alignItems: "center" }}>
-                        <img src="/imgs/event_icons/ECEDinnerDanceVenue.png" style={{ width: "170px", height: "170px", marginRight: "15px" }} />
+                        <img src="/imgs/event_icons/ECEDinnerDanceVenue.png" style={{ width: "23%", maxWidth: "170px", height: "auto", marginRight: "15px" }} />
                         <div>
                             <div style={{ textAlign: "justify" }}>
                                 <b>Mark your calendars: February 14th, 2025! </b> This year, we're hosting our event at the stunning <u> Chateau Le Jardin</u> in Woodbridge, ON 
