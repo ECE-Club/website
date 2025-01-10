@@ -100,6 +100,82 @@ function Events() {
                 Upcoming Events:
             </Typography>
             <br/>
+            <BrowserView>
+                <div style={{ borderRadius: "20px", background: "white", padding: "20px", margin: "10px 30px 18px 30px" }}>
+                    <Typography>
+                        <div style={{ display: "flex", alignItems: "center" }}>
+                            <div onClick={() => goToUrl("https://www.tickettailor.com/events/ececlub/1523837")}>
+                                <img src="/imgs/event_icons/ECEDinnerDanceVenue.png" style={{ width: "140px", height: "140px" }} />                        
+                            </div>
+                            <div style={{ marginLeft: "20px", width: "calc(100% - 160px)" }}>
+                                <Typography sx={{ cursor:'pointer', color: "#152a51", margin: "10px 0" }} variant="h5">
+                                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                                        <div onClick={() => goToUrl("https://www.tickettailor.com/events/ececlub/1523837")} style={{ fontWeight: 'bold' }}> ECE Dinner Dance 2T5 </div>
+                                        <div style={{ textAlign: "right" }}> February 14th, 2025 </div>
+                                    </div>
+                                </Typography>
+                                <Typography sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word" }} variant="h6">
+                                    <div style={{textAlign: "justify"}}>
+                                        <b>Mark your calendars: February 14th, 2025! </b> This year, we're hosting our event at the stunning <u> Chateau Le Jardin</u> in Woodbridge, ON 
+                                        that can accommodate up to 400 guests. <br/> Tickets will include a 3-course meal, an open bar🥂, a DJ + music 🎶, and a photobooth to capture all the memories. Hurry before they're sold out! 💃
+                                    </div>
+                                </Typography>
+                                <Typography
+                                    sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word", textDecoration: 'underline', cursor: 'pointer' }}
+                                    variant="h6"
+                                    onClick={() => goToUrl("https://www.tickettailor.com/events/ececlub/1523837")}
+                                >
+                                    Get your tickets today!
+                                </Typography>
+                                <Typography
+                                    sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word", textDecoration: 'underline', cursor: 'pointer' }}
+                                    variant="h6"
+                                    onClick={() => goToUrl("https://www.instagram.com/p/DEi2AE7vP61/?hl=en")}
+                                >
+                                    Check out our Instagram for more info!
+                                </Typography>
+                            </div>
+                        </div>
+                    </Typography>
+                </div>
+            </BrowserView>
+            <MobileView>
+                <div style={{ borderRadius: "20px", background: "white", padding: "20px", margin: "10px 30px 18px 30px" }}>
+                    <Typography>
+                        <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+                            <div onClick={() => goToUrl("https://www.tickettailor.com/events/ececlub/1523837")}>
+                                <img src="/imgs/event_icons/ECEDinnerDanceVenue.png" style={{ width: "200px", height: "200px" }} />                        
+                            </div>
+                            <div style={{ marginTop: "10px", width: "100%" }}>
+                                <Typography sx={{ cursor:'pointer', color: "#152a51", margin: "5px 0" }} variant="h5">
+                                    <div onClick={() => goToUrl("https://www.tickettailor.com/events/ececlub/1523837")} style={{ fontWeight: 'bold' }}> ECE Dinner Dance 2T5 </div>
+                                    <div style={{ textAlign: "right" }}> February 14th, 2025 </div>
+                                </Typography>
+                                <Typography sx={{ color: "#152a51", margin: "5px 8px", overflowWrap: "break-word" }} variant="h7">
+                                    <div style={{textAlign: "justify"}}>
+                                        <b>Mark your calendars: February 14th, 2025! </b> This year, we're hosting our event at the stunning <u> Chateau Le Jardin</u> in Woodbridge, ON 
+                                        that can accommodate up to 400 guests. <br/> Tickets will include a 3-course meal, an open bar🥂, a DJ + music 🎶, and a photobooth to capture all the memories. Hurry before they're sold out! 💃
+                                    </div>
+                                </Typography>
+                                <Typography
+                                    sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word", textDecoration: 'underline', cursor: 'pointer' }}
+                                    variant="h6"
+                                    onClick={() => goToUrl("https://www.tickettailor.com/events/ececlub/1523837")}
+                                >
+                                    Get your tickets today!
+                                </Typography>
+                                <Typography
+                                    sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word", textDecoration: 'underline', cursor: 'pointer' }}
+                                    variant="h6"
+                                    onClick={() => goToUrl("https://www.instagram.com/p/DEi2AE7vP61/?hl=en")}
+                                >
+                                    Check out our Instagram for more info!
+                                </Typography>
+                            </div>
+                        </div>
+                    </Typography>
+                </div>
+            </MobileView>
             
             
             <Typography sx={{ fontWeight: 'bold', color: "white", margin: "30px 30px -20px 30px" }} variant="h6">
@@ -359,7 +435,7 @@ function Events() {
                                 </Typography>
                                 <Typography sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word" }} variant="h6">
                                     <div style={{textAlign: "justify"}}>
-                                        Mark your calendars! ECE Dinner Dance will return on February 16th, 2023! 
+                                        Mark your calendars! ECE Dinner Dance will return on February 16th, 2024! 
                                         Our venue this year is Chateau Le Jardin, a gorgeous mansion located in the heart of Woodbridge, ON, and able to accommodate up to 400 people. 
                                         Dinner Dance tickets will include a 3-course meal, an open bar, a DJ + music, and transportation.
                                     </div>
@@ -385,7 +461,7 @@ function Events() {
                                 </Typography>
                                 <Typography sx={{ color: "#152a51", margin: "5px 8px", overflowWrap: "break-word" }} variant="h7">
                                     <div style={{textAlign: "justify"}}>
-                                        Mark your calendars! ECE Dinner Dance will return on February 16th, 2023! 
+                                        Mark your calendars! ECE Dinner Dance will return on February 16th, 2024! 
                                         Our venue this year is Chateau Le Jardin, a gorgeous mansion located in the heart of Woodbridge, ON, and able to accommodate up to 400 people. 
                                         Dinner Dance tickets will include a 3-course meal, an open bar, a DJ + music, and transportation.
                                     </div>

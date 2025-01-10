@@ -49,7 +49,7 @@ const AnnouncementPopup = () => {
             }}
         >
             <DialogTitle sx={{ display: 'flex', fontWeight: 'bold', justifyContent: 'space-between', alignItems: 'center' }}>
-                ECE Common Room Locker Rentals
+                ECE Dinner Dance 2T5
                 <IconButton 
                     edge="end" 
                     color="inherit" 
@@ -65,31 +65,31 @@ const AnnouncementPopup = () => {
             <DialogContent onClick={handleVisitAnnouncement}>
                 <Typography sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word" }} variant="h6">
                     <div style={{ display: "flex", alignItems: "center" }}>
-                        <img src="/imgs/event_icons/LockerRental.png" style={{ width: "100px", height: "100px", marginRight: "15px" }} />
+                        <img src="/imgs/event_icons/ECEDinnerDanceVenue.png" style={{ width: "170px", height: "170px", marginRight: "15px" }} />
                         <div>
                             <div style={{ textAlign: "justify" }}>
-                                Need a spot for your stuff? ECE Club is renting lockers in the ECE Common Room (BA1120)! With only 60 lockers available, secure yours ASAP 
-                                and share it with friends to save money! <br /> Just bring your own lock (as we won't be keeping your lock combo)🔒
+                                <b>Mark your calendars: February 14th, 2025! </b> This year, we're hosting our event at the stunning <u> Chateau Le Jardin</u> in Woodbridge, ON 
+                                that can accommodate up to 400 guests. Tickets will include a 3-course meal, an open bar🥂, a DJ + music 🎶, and a photobooth to capture all the memories. <br/> <b>Hurry before they're sold out! 💃</b>
                             </div>
                             <Typography
                                 sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word", textDecoration: 'underline', cursor: 'pointer' }}
                                 variant="h6"
                                 onClick={(event) => {
                                     event.stopPropagation(); 
-                                    goToUrl("https://docs.google.com/forms/d/e/1FAIpQLSfe2Fi1T1Sx8RWgKLjzIY1PtfE0xe8pYulswRiAArXemYGvdg/viewform");
+                                    goToUrl("https://www.tickettailor.com/events/ececlub/1523837");
                                 }}
                             >
-                                Sign up today!
+                                Get your tickets today!
                             </Typography>
                             <Typography
                                 sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word", textDecoration: 'underline', cursor: 'pointer' }}
                                 variant="h6"
                                 onClick={(event) => {
                                     event.stopPropagation(); 
-                                    goToUrl("https://www.instagram.com/p/C_3dgc0vDrm/?hl=en");
+                                    goToUrl("https://www.instagram.com/p/DEi2AE7vP61/?hl=en");
                                 }}
                             >
-                                Check out our Instagram Post for more info!
+                                Check out our Instagram for more info!
                             </Typography>
                         </div>
                     </div>

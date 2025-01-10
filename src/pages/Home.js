@@ -12,7 +12,7 @@ function Home() {
 
     return (
         <div>
-            {/* <AnnouncementPop /> */}
+            <AnnouncementPop />
 
             
             <Typography sx={{ color: "white", margin: "10px 30px 0 30px" }} variant="h5">
