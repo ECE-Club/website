@@ -19,11 +19,12 @@ function ProductCard({ product }) {
     };
 
     const handleBuyClick = () => {
-        if (selectedSize) {
-            window.location.href = product.paymentLinks[selectedSize];
-        } else {
-            setErrorMsg("Please select a size!");
-        }
+        // if (selectedSize) {
+        //     window.location.href = product.paymentLinks[selectedSize];
+        // } else {
+        //     setErrorMsg("Please select a size!");
+        // }
+        window.location.href = product.paymentLinks.generic
     };
 
     const handleDetailsOpen = () => {
@@ -64,7 +65,6 @@ function ProductCard({ product }) {
                     alt={product.name}
                     sx={{objectFit: 'contain'}}
                 />
-
                 <CardContent>
                     <Typography variant="h6" sx={{fontweight: 'bold', marginBottom: '10px'}}>{product.name}</Typography>
                     {/* <Typography variant="body2" color="textSecondary">
@@ -78,8 +78,8 @@ function ProductCard({ product }) {
                             {product.discountedPrice}
                         </Typography>
                     </div>
-                    <br/>
-                    <FormControl fullWidth>
+                    {/*<br/>
+                     <FormControl fullWidth>
                         <InputLabel>Size</InputLabel>
                         <Select
                             value={selectedSize}
@@ -90,7 +90,7 @@ function ProductCard({ product }) {
                                 <MenuItem key={size} value={size.toLowerCase()}>{size}</MenuItem>
                             ))}
                         </Select>
-                    </FormControl>
+                    </FormControl> */}
                     {errorMsg && (
                         <Typography variant="body2" color="error" sx={{ marginTop: '10px', fontWeight: 'bold' }}>
                             {errorMsg}
@@ -98,7 +98,7 @@ function ProductCard({ product }) {
                     )}
                 </CardContent>
                 <CardActions sx={{ display: 'flex', justifyContent: 'space-between', marginRight: '1vw', marginBottom: '1vw'}}>
-                    <Button size="small" color="secondary" sx={{ marginLeft: '0.5vw'}} onClick={handleDetailsOpen} >
+                    <Button size="small" color="secondary" sx={{ marginLeft: '0.5vw',fontSize: '17px'}} onClick={handleDetailsOpen} >
                         View Details
                     </Button>
                     <Button 

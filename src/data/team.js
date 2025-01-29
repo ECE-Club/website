@@ -98,7 +98,7 @@ export default [
         ]
     },
     {
-        picture: " ",
+        picture: "imgs/Pics of 2T4-2T5/Ruhaab.jpg",
         name: "Ruhaab Khan",
         role: "General Events Director",
         year: "2T5 + 1",
@@ -248,7 +248,7 @@ export default [
         ]
     },
     {
-        picture: "",
+        picture: "imgs/Pics of 2T4-2T5/Ethan.jpg",
         name: "Ethan Mao",
         role: "1st Year Class Rep",
         year: "2T8",
@@ -258,7 +258,7 @@ export default [
         ]
     },
     {
-        picture: "",
+        picture: "imgs/Pics of 2T4-2T5/Arnav.jpg",
         name: "Arnav Agarwal",
         role: "1st Year Class Rep",
         year: "2T8",
@@ -288,7 +288,7 @@ export default [
         ]
     },
     {
-        picture: "imgs/VishwasPuri.jpeg",
+        picture: "imgs/Pics of 2T4-2T5/Vishwa.jpg",
         name: "Vishwas Puri",
         role: "2nd Year Rep",
         year: "2T7",
@@ -340,7 +340,7 @@ export default [
         ]
     },
     {
-        picture: "imgs/GaurikaMahajan.jpg",
+        picture: "imgs/Pics of 2T4-2T5/Gaurika.png",
         name: "Gaurika Mahajan",
         role: "3rd Year Rep",
         year: "2T6",
@@ -384,7 +384,7 @@ export default [
         ]
     },
     {
-        picture: " ",
+        picture: "imgs/Pics of 2T4-2T5/Narender_Kheder.jpg",
         name: "Narender Kheder",
         role: "4th Year Class Rep",
         year: "2T4 + PEY",
