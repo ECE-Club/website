@@ -1,5 +1,5 @@
 import React from 'react';
-import { Routes, Route } from "react-router-dom";
+import { Routes, Route, useLocation } from "react-router-dom";
 import { BrowserView, MobileView } from 'react-device-detect';
 import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
@@ -14,13 +14,27 @@ import Footer from './components/Footer';
 import './App.css';
 import Events from './pages/Events';
 import Articles from './pages/Articles';
+import Merch from './pages/Merch';
 
 function Main() {
 
-  document.body.style.backgroundColor = "#152a51";
+  const location = useLocation();
+
+  const getBackgroundColor = (path) => {
+    switch (path) {
+      case '/merch':
+        return '#f0f0f0'; // Example of a different background for the AboutUs page
+      default:
+        return '#152a51'; //default ece dark blue
+    }
+  };
+
+  const backgroundColor = getBackgroundColor(location.pathname);
+
+  document.body.style.backgroundColor = backgroundColor;
 
   return (
-    <div style={{backgroundColor:"#152a51"}}>
+    <div style={{backgroundColor}}>
       <BrowserView>
         <NavbarDesktop/>
         <div style={{ height: "80px"}} />
@@ -39,7 +53,7 @@ function Main() {
         <Route path="eventsandmentorship" element={<EventsAndMentorship />} />
         <Route path="events" element={<Events />} />
         <Route path="articles" element={<Articles />} />
-        
+        <Route path="merch" element={<Merch />} />
       </Routes>
       <div style={{ height: "70px"}} />
       <Footer/>

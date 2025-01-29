@@ -41,6 +41,7 @@ function NavbarMobile() {
                     open={drawer}
                     onClose={() => setDrawer(false)}
                 >
+                    <NavLink to="merch" activeClassName='active' className="nav-item"> Merch </NavLink>
                     <NavLink to="events" activeClassName='active' className="nav-item"> Events </NavLink>
                     <NavLink to="articles" activeClassName='active' className="nav-item"> Articles </NavLink>
                     {/* <NavLink to="aboutus" activeClassName='active' className="nav-item"> About Us </NavLink> */}
