@@ -100,6 +100,12 @@ function Events() {
                 Upcoming Events:
             </Typography>
             <br/>
+            
+            
+            <Typography sx={{ fontWeight: 'bold', color: "white", margin: "30px 30px -20px 30px" }} variant="h6">
+                Past Events:
+            </Typography>
+            <br/>
             <BrowserView>
                 <div style={{ borderRadius: "20px", background: "white", padding: "20px", margin: "10px 30px 18px 30px" }}>
                     <Typography>
@@ -176,12 +182,6 @@ function Events() {
                     </Typography>
                 </div>
             </MobileView>
-            
-            
-            <Typography sx={{ fontWeight: 'bold', color: "white", margin: "30px 30px -20px 30px" }} variant="h6">
-                Past Events:
-            </Typography>
-            <br/>
             <BrowserView>
                 <div style={{ borderRadius: "20px", background: "white", padding: "20px", margin: "10px 30px 18px 30px" }}>
                     <Typography>

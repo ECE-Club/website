@@ -49,7 +49,7 @@ const AnnouncementPopup = () => {
             }}
         >
             <DialogTitle sx={{ display: 'flex', fontWeight: 'bold', justifyContent: 'space-between', alignItems: 'center' }}>
-                ECE Dinner Dance 2T5
+                ECE Club Merch
                 <IconButton 
                     edge="end" 
                     color="inherit" 

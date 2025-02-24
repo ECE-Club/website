@@ -24,7 +24,7 @@ function ProductCard({ product }) {
         // } else {
         //     setErrorMsg("Please select a size!");
         // }
-        window.location.href = product.paymentLinks.generic
+        window.open(product.paymentLinks.generic, '_blank');
     };
 
     const handleDetailsOpen = () => {
@@ -38,8 +38,7 @@ function ProductCard({ product }) {
 
     return (
         <Grid item xs={12} sm={6} md={4} lg={3} key={product.id}>
-            <Card sx={{ width: '100%', height: '100%', position: 'relative' }}>
-                
+            <Card sx={{ width: '100%', height: '100%', position: 'relative', padding: '0 10px', '@media (min-width: 600px)': {padding: '0 20px', },}}>
                 <div style={{
                     position: 'absolute',
                     top: '30%', 
@@ -71,10 +70,10 @@ function ProductCard({ product }) {
                         {product.price}
                     </Typography> */}
                     <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px' }}>
-                        <Typography variant="body1" color="textSecondary" sx={{ textDecoration: 'line-through', fontSize: '17px' }}>
+                        <Typography variant="body1" color="textSecondary" sx={{ textDecoration: 'line-through', fontSize: { xs: '1rem', sm: '2rem', md: '1.5rem' } }}>
                             {product.originalPrice}
                         </Typography>
-                        <Typography variant="body1" sx={{ color: 'red', fontWeight: 'bold' }}>
+                        <Typography variant="body1" sx={{ color: 'red', fontWeight: 'bold', fontSize: { xs: '1rem', sm: '2rem', md: '1.5rem' } }}>
                             {product.discountedPrice}
                         </Typography>
                     </div>
@@ -141,6 +140,8 @@ function ProductCard({ product }) {
 
 function Merch() {
     const productsSectionRef = useRef(null);
+    const isMobile = window.innerWidth <= 600; // Check if it's mobile
+    const backgroundImage = isMobile ? 'url(/imgs/merch/banner3.png)' : 'url(/imgs/merch/banner2.png)';
 
     const handleScroll = () => {
         if (productsSectionRef.current) {
@@ -155,24 +156,25 @@ function Merch() {
         <div>
             {/* Banner Section */}
             <div style={{
-                backgroundImage: 'url(/imgs/merch/bannerBG.jpeg)', 
+                backgroundImage: backgroundImage, 
                 backgroundSize: 'cover', 
                 backgroundPosition: 'center',
                 width: '100%',
-                height: '100vh',
+                height: '70vh',
                 color: 'black', 
                 padding: '100px 0',
                 textAlign: 'center',
                 position: 'relative',
-                bottom: 20
-            }}>
+                bottom: 20,
+            }} 
+            >
                 <div style={{
                     position: 'absolute',
                     top: 0,
                     left: 0,
                     right: 0,
                     bottom: 0,
-                    backgroundColor: 'rgba(54, 87, 170, 0.2)'
+                    // backgroundColor: 'rgba(54, 87, 170, 0.2)'
                 }}></div>
 
             <div style={{
@@ -181,23 +183,26 @@ function Merch() {
                     display: 'flex', 
                     flexDirection: 'column', 
                     justifyContent: 'center', 
-                    alignItems: 'center', 
-                    height: '65%', 
+                    alignItems: 'flex-end', 
+                    height: '90%', 
                     color: 'black',
-                    textAlign: 'center',
+                    textAlign: 'right',
+                    paddingRight: '5vw',
+                    width: '50%',
+                    marginLeft: 'auto',
                 }}>
-                <Typography variant="h3" sx={{ fontWeight: 'bold', marginBottom: '20px'}}>
-                    New Collection of ECE Hoodies!
+                <Typography variant="h1" sx={{ fontWeight: 'bold', marginBottom: '20px', color: "#ffffff", textShadow: '4px 5px 5px rgba(3, 4, 44, 0.7)', fontSize: { xs: '1.90rem', sm: '3rem', md: '4rem', lg: '4rem'},}}>
+                    Shop ECE Club Hoodies!
                 </Typography>
-                <Typography variant="h5" sx={{ marginBottom: '30px', color: "#5e5959"}}>
-                    Shop the ECE Club Merch offerings. <br/>
-                    Early Bird Hoodies available until Feburary 14th!
+                <Typography variant="h5" sx={{ fontWeight: 'bold', marginBottom: '30px', color: "#ffffff", textShadow: '4px 5px 5px rgba(3, 4, 44, 0.7)', fontSize: { xs: '0.85rem', sm: '1rem', md: '2rem', lg: '2rem' }}}>
+                    Only available for a limited time. <br/>
+                    Early Bird discount available until March 2rd!
                 </Typography>
                 <Button 
                     variant="contained" 
                     color="primary" 
                     onClick={handleScroll}
-                    sx={{ padding: '10px 30px', fontSize: '18px' }}
+                    sx={{ padding: { xs: '7px 20px', sm: '7px 20px', md: '10px 30px', lg: '10px 30px'}, backgroundColor: '#13178a', fontSize: { xs: '0.75rem', sm: '2rem', md: '2rem', lg: '2rem'}, fontWeight: 'bold', boxShadow: '3px 4px 15px rgba(0, 0, 0, 0.3)', '&:hover': { backgroundColor: '#0c0f66'}}}
                 >
                     Shop Now
                 </Button>
@@ -206,7 +211,7 @@ function Merch() {
 
             {/* Products Section */}
             <Container ref={productsSectionRef} sx={{ padding: '20px', minHeight: '75vh', minWidth: '97vw' }}>
-                <Typography variant="h4" gutterBottom sx={{ fontWeight: 'bold' }}>
+                <Typography variant="h4" gutterBottom sx={{ fontWeight: 'bold', fontSize: { xs: '2rem', sm: '3rem', md: '3rem' } }}>
                     Featured Products
                 </Typography>
                 <br/>
