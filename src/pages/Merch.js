@@ -24,7 +24,7 @@ function ProductCard({ product }) {
         // } else {
         //     setErrorMsg("Please select a size!");
         // }
-        window.open(product.paymentLinks.generic, '_blank');
+        window.open(product.paymentLinks.form, '_blank');
     };
 
     const handleDetailsOpen = () => {
