@@ -8,7 +8,7 @@ const products = [
         sizes: ["XS", "S", "M", "L", "XL", "XXL", "XXXL"],
         paymentLinks: {
             generic:"https://square.link/u/TShJdAYZ",
-            form: "https://forms.gle/4nfHbsNcHFWNr1vB6"
+            form: "https://forms.gle/7CW8roTQvR7Xy4jw6"
         },
         details: "imgs/merch/eceHoodieDetail.png",
         sizeGuideImage: 'imgs/merch/eceHoodieSizing.png'
