@@ -196,7 +196,7 @@ function Merch() {
                 </Typography>
                 <Typography variant="h5" sx={{ fontWeight: 'bold', marginBottom: '30px', color: "#ffffff", textShadow: '4px 5px 5px rgba(3, 4, 44, 0.7)', fontSize: { xs: '0.85rem', sm: '1rem', md: '2rem', lg: '2rem' }}}>
                     Only available for a limited time. <br/>
-                    Early Bird discount available until March 5th!
+                    Early Bird discount available until March 9th!
                 </Typography>
                 <Button 
                     variant="contained" 
