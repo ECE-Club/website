@@ -23,7 +23,7 @@ function Main() {
   const getBackgroundColor = (path) => {
     switch (path) {
       case '/merch':
-        return '#f0f0f0'; // Example of a different background for the AboutUs page
+        return '#f0f0f0'; //Different background colour for merch page
       default:
         return '#152a51'; //default ece dark blue
     }
