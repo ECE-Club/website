@@ -2,7 +2,7 @@ const products = [
     { 
         id: 1, 
         name: 'ECE Hoodie', 
-        originalPrice: '$65.00 CAD', 
+        originalPrice: '$55.00 CAD', 
         discountedPrice: '$55.00 CAD', 
         images: ['imgs/merch/eceHoodieFront.png', 'imgs/merch/eceHoodieBack.png'],
         sizes: ["XS", "S", "M", "L", "XL", "XXL", "XXXL"],

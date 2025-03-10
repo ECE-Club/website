@@ -67,15 +67,15 @@ function ProductCard({ product }) {
                 <CardContent>
                     <Typography variant="h6" sx={{fontweight: 'bold', marginBottom: '10px'}}>{product.name}</Typography>
                     {/* <Typography variant="body2" color="textSecondary">
-                        {product.price}
+                        {product.originalPrice}
                     </Typography> */}
                     <div style={{ display: 'flex', alignItems: 'center', gap: '10px', marginBottom: '10px' }}>
-                        <Typography variant="body1" color="textSecondary" sx={{ textDecoration: 'line-through', fontSize: { xs: '1rem', sm: '2rem', md: '1.5rem' } }}>
+                        <Typography variant="body1" sx={{color: '#2c77e0', fontWeight: 'bold', fontSize: { xs: '1rem', sm: '2rem', md: '1.5rem' } }}>
                             {product.originalPrice}
                         </Typography>
-                        <Typography variant="body1" sx={{ color: 'red', fontWeight: 'bold', fontSize: { xs: '1rem', sm: '2rem', md: '1.5rem' } }}>
+                        {/* <Typography variant="body1" sx={{ color: 'red', fontWeight: 'bold', fontSize: { xs: '1rem', sm: '2rem', md: '1.5rem' } }}>
                             {product.discountedPrice}
-                        </Typography>
+                        </Typography> */}
                     </div>
                     {/*<br/>
                      <FormControl fullWidth>
@@ -196,7 +196,7 @@ function Merch() {
                 </Typography>
                 <Typography variant="h5" sx={{ fontWeight: 'bold', marginBottom: '30px', color: "#ffffff", textShadow: '4px 5px 5px rgba(3, 4, 44, 0.7)', fontSize: { xs: '0.85rem', sm: '1rem', md: '2rem', lg: '2rem' }}}>
                     Only available for a limited time. <br/>
-                    Early Bird discount available until March 9th!
+                    {/* Early Bird discount available until March 9th! */}
                 </Typography>
                 <Button 
                     variant="contained" 
