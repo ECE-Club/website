@@ -111,7 +111,7 @@ function Events() {
                                 <Typography sx={{ cursor:'pointer', color: "#152a51", margin: "10px 0" }} variant="h5">
                                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
                                         <div onClick={() => goToUrl("https://docs.google.com/forms/d/e/1FAIpQLSf-Z4oDM_4BmDsTrpbbNT9AnD7rFkKIqXHsyGWnzMpBSX9q7A/viewform")} style={{ fontWeight: 'bold' }}> Plugged In: Meet your ECE Family! </div>
-                                        <div style={{ textAlign: "right" }}> October 12th, 2025 </div>
+                                        <div style={{ textAlign: "right" }}> October 20th, 2025 </div>
                                     </div>
                                 </Typography>
                                 <Typography sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word" }} variant="h6">
@@ -143,12 +143,12 @@ function Events() {
                     <Typography>
                         <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
                             <div onClick={() => goToUrl("https://docs.google.com/forms/d/e/1FAIpQLSf-Z4oDM_4BmDsTrpbbNT9AnD7rFkKIqXHsyGWnzMpBSX9q7A/viewform")}>
-                                <img src="/imgs/event_icons/PingPong.png" style={{ width: "200px", height: "200px" }} />                        
+                                <img src="/imgs/event_icons/PluggedIn.png" style={{ width: "200px", height: "200px" }} />                        
                             </div>
                             <div style={{ marginTop: "10px", width: "100%" }}>
                                 <Typography sx={{ cursor:'pointer', color: "#152a51", margin: "5px 0" }} variant="h5">
                                     <div onClick={() => goToUrl("https://docs.google.com/forms/d/e/1FAIpQLSf-Z4oDM_4BmDsTrpbbNT9AnD7rFkKIqXHsyGWnzMpBSX9q7A/viewform")} style={{ fontWeight: 'bold' }}> Plugged In: Meet your ECE Family! </div>
-                                    <div style={{ textAlign: "right" }}> October 12th, 2025 </div>
+                                    <div style={{ textAlign: "right" }}> October 20th, 2025 </div>
                                 </Typography>
                                 <Typography sx={{ color: "#152a51", margin: "5px 8px", overflowWrap: "break-word" }} variant="h7">
                                     <div style={{textAlign: "justify"}}>
