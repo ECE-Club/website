@@ -104,6 +104,85 @@ function Events() {
                 <div style={{ borderRadius: "20px", background: "white", padding: "20px", margin: "10px 30px 18px 30px" }}>
                     <Typography>
                         <div style={{ display: "flex", alignItems: "center" }}>
+                            <div onClick={() => goToUrl("https://docs.google.com/forms/d/e/1FAIpQLSf-Z4oDM_4BmDsTrpbbNT9AnD7rFkKIqXHsyGWnzMpBSX9q7A/viewform")}>
+                                <img src="/imgs/event_icons/PluggedIn.png" style={{ width: "140px", height: "140px" }} />                        
+                            </div>
+                            <div style={{ marginLeft: "20px", width: "calc(100% - 160px)" }}>
+                                <Typography sx={{ cursor:'pointer', color: "#152a51", margin: "10px 0" }} variant="h5">
+                                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                                        <div onClick={() => goToUrl("https://docs.google.com/forms/d/e/1FAIpQLSf-Z4oDM_4BmDsTrpbbNT9AnD7rFkKIqXHsyGWnzMpBSX9q7A/viewform")} style={{ fontWeight: 'bold' }}> Plugged In: Meet your ECE Family! </div>
+                                        <div style={{ textAlign: "right" }}> October 12th, 2025 </div>
+                                    </div>
+                                </Typography>
+                                <Typography sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word" }} variant="h6">
+                                    <div style={{textAlign: "justify"}}>
+                                    Come to BA1120 on <b>Monday, October 20th</b> at <b>6:00 - 7:30 PM</b> to enjoy free pizza, Kahoot, drinks, games, and more! We will also be selling ECE merch at the event.
+                                    </div>
+                                </Typography>
+                                <Typography
+                                    sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word", textDecoration: 'underline', cursor: 'pointer' }}
+                                    variant="h6"
+                                    onClick={() => goToUrl("https://docs.google.com/forms/d/e/1FAIpQLSf-Z4oDM_4BmDsTrpbbNT9AnD7rFkKIqXHsyGWnzMpBSX9q7A/viewform")}
+                                >
+                                    RSVP today!
+                                </Typography>
+                                <Typography
+                                    sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word", textDecoration: 'underline', cursor: 'pointer' }}
+                                    variant="h6"
+                                    onClick={() => goToUrl("https://www.instagram.com/ece__club/")}
+                                >
+                                    Check out our Instagram for more info!
+                                </Typography>
+                            </div>
+                        </div>
+                    </Typography>
+                </div>
+            </BrowserView>
+            <MobileView>
+                <div style={{ borderRadius: "20px", background: "white", padding: "20px", margin: "10px 30px 18px 30px" }}>
+                    <Typography>
+                        <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+                            <div onClick={() => goToUrl("https://docs.google.com/forms/d/e/1FAIpQLSf-Z4oDM_4BmDsTrpbbNT9AnD7rFkKIqXHsyGWnzMpBSX9q7A/viewform")}>
+                                <img src="/imgs/event_icons/PingPong.png" style={{ width: "200px", height: "200px" }} />                        
+                            </div>
+                            <div style={{ marginTop: "10px", width: "100%" }}>
+                                <Typography sx={{ cursor:'pointer', color: "#152a51", margin: "5px 0" }} variant="h5">
+                                    <div onClick={() => goToUrl("https://docs.google.com/forms/d/e/1FAIpQLSf-Z4oDM_4BmDsTrpbbNT9AnD7rFkKIqXHsyGWnzMpBSX9q7A/viewform")} style={{ fontWeight: 'bold' }}> Plugged In: Meet your ECE Family! </div>
+                                    <div style={{ textAlign: "right" }}> October 12th, 2025 </div>
+                                </Typography>
+                                <Typography sx={{ color: "#152a51", margin: "5px 8px", overflowWrap: "break-word" }} variant="h7">
+                                    <div style={{textAlign: "justify"}}>
+                                        Come to BA1120 on <b>Monday, October 20th</b> at <b>6:00 - 7:30 PM</b> to enjoy free pizza, Kahoot, drinks, games, and more! We will also be selling ECE merch at the event. 
+                                    </div>
+                                </Typography>
+                                <Typography
+                                    sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word", textDecoration: 'underline', cursor: 'pointer' }}
+                                    variant="h6"
+                                    onClick={() => goToUrl("https://docs.google.com/forms/d/e/1FAIpQLSf-Z4oDM_4BmDsTrpbbNT9AnD7rFkKIqXHsyGWnzMpBSX9q7A/viewform")}
+                                >
+                                    RSVP today!
+                                </Typography>
+                                <Typography
+                                    sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word", textDecoration: 'underline', cursor: 'pointer' }}
+                                    variant="h6"
+                                    onClick={() => goToUrl("https://www.instagram.com/ece__club/")}
+                                >
+                                    Check out our Instagram for more info!
+                                </Typography>
+                            </div>
+                        </div>
+                    </Typography>
+                </div>
+            </MobileView>
+            
+            <Typography sx={{ fontWeight: 'bold', color: "white", margin: "30px 30px -20px 30px" }} variant="h6">
+                Past Events:
+            </Typography>
+            <br/>
+            <BrowserView>
+                <div style={{ borderRadius: "20px", background: "white", padding: "20px", margin: "10px 30px 18px 30px" }}>
+                    <Typography>
+                        <div style={{ display: "flex", alignItems: "center" }}>
                             <div onClick={() => goToUrl("https://docs.google.com/forms/d/1YA1mwKiwX8piGdrC7PJ7GPpY6cPCdDaGLDLckC2f_cA/viewform?edit_requested=true")}>
                                 <img src="/imgs/event_icons/PingPong.png" style={{ width: "140px", height: "140px" }} />                        
                             </div>
@@ -176,11 +255,6 @@ function Events() {
                     </Typography>
                 </div>
             </MobileView>
-            
-            <Typography sx={{ fontWeight: 'bold', color: "white", margin: "30px 30px -20px 30px" }} variant="h6">
-                Past Events:
-            </Typography>
-            <br/>
             <BrowserView>
                 <div style={{ borderRadius: "20px", background: "white", padding: "20px", margin: "10px 30px 18px 30px" }}>
                     <Typography>
