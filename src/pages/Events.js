@@ -1,5 +1,6 @@
 import React from 'react';
-import { Typography } from '@mui/material';
+import { Typography, Button } from '@mui/material';
+import { CalendarToday } from '@mui/icons-material';
 import { MobileView } from 'react-device-detect';
 import { BrowserView } from 'react-device-detect';
 
@@ -8,6 +9,17 @@ function Events() {
     function goToUrl(url) {
         window.open(url, '_blank');
     }
+
+    // Google Calendar Configuration
+    // To set this up:
+    // 1. Create a Google Calendar for ECE Club events
+    // 2. Go to Google Calendar -> Settings -> Settings for my calendars -> [Your Calendar]
+    // 3. Scroll to "Access permissions" and check "Make available to public"
+    // 4. Scroll to "Integrate calendar" and copy the Calendar ID
+    // 5. Replace the placeholder below with your Calendar ID
+    const GOOGLE_CALENDAR_ID = 'YOUR_CALENDAR_ID@group.calendar.google.com';
+    const GOOGLE_CALENDAR_EMBED_URL = `https://calendar.google.com/calendar/embed?src=${encodeURIComponent(GOOGLE_CALENDAR_ID)}&ctz=America%2FToronto&mode=MONTH&showNav=1&showDate=1&showPrint=0&showTabs=1&showCalendars=0&showTz=0`;
+    const GOOGLE_CALENDAR_LINK = `https://calendar.google.com/calendar/render?cid=${encodeURIComponent(GOOGLE_CALENDAR_ID)}`;
 
     return (
         <div>
@@ -96,6 +108,111 @@ function Events() {
             <Typography sx={{ color: "white", margin: "10px 30px 10px 30px" }} variant="h6">
                 Explore our catalogue of upcoming and past events, showcasing a spectrum of amazing events.
             </Typography>
+            
+            {/* Calendar Section */}
+            <Typography sx={{ color: "white", margin: "30px 30px 10px 30px" }} variant="h5">
+                Calendar
+            </Typography>
+            <BrowserView>
+                <div style={{ borderRadius: "20px", background: "white", padding: "20px", margin: "10px 30px 18px 30px" }}>
+                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center", marginBottom: "15px", flexWrap: "wrap", gap: "10px" }}>
+                        <Typography sx={{ color: "#152a51", fontWeight: 'bold' }} variant="h6">
+                            Upcoming Events Calendar
+                        </Typography>
+                        <Button
+                            variant="outlined"
+                            startIcon={<CalendarToday />}
+                            onClick={() => goToUrl(GOOGLE_CALENDAR_LINK)}
+                            sx={{ 
+                                color: "#152a51", 
+                                borderColor: "#152a51",
+                                textTransform: 'none',
+                                '&:hover': {
+                                    borderColor: "#152a51",
+                                    backgroundColor: "#f5f5f5"
+                                }
+                            }}
+                        >
+                            Open in Google Calendar
+                        </Button>
+                    </div>
+                    <div style={{ 
+                        position: "relative", 
+                        paddingBottom: "35%", 
+                        height: 0, 
+                        overflow: "hidden",
+                        borderRadius: "10px",
+                        border: "1px solid #e0e0e0"
+                    }}>
+                        <iframe
+                            src={GOOGLE_CALENDAR_EMBED_URL}
+                            style={{
+                                position: "absolute",
+                                top: 0,
+                                left: 0,
+                                width: "100%",
+                                height: "100%",
+                                border: "none",
+                                borderRadius: "10px"
+                            }}
+                            frameBorder="0"
+                            scrolling="no"
+                            title="ECE Club Calendar"
+                        />
+                    </div>
+                </div>
+            </BrowserView>
+            <MobileView>
+                <div style={{ borderRadius: "20px", background: "white", padding: "20px", margin: "10px 30px 18px 30px" }}>
+                    <div style={{ marginBottom: "15px", textAlign: "center" }}>
+                        <Typography sx={{ color: "#152a51", fontWeight: 'bold', marginBottom: "10px" }} variant="h6">
+                            Upcoming Events Calendar
+                        </Typography>
+                        <Button
+                            variant="outlined"
+                            fullWidth
+                            startIcon={<CalendarToday />}
+                            onClick={() => goToUrl(GOOGLE_CALENDAR_LINK)}
+                            sx={{ 
+                                color: "#152a51", 
+                                borderColor: "#152a51",
+                                textTransform: 'none',
+                                '&:hover': {
+                                    borderColor: "#152a51",
+                                    backgroundColor: "#f5f5f5"
+                                }
+                            }}
+                        >
+                            Open in Google Calendar
+                        </Button>
+                    </div>
+                    <div style={{ 
+                        position: "relative", 
+                        paddingBottom: "60%", 
+                        height: 0, 
+                        overflow: "hidden",
+                        borderRadius: "10px",
+                        border: "1px solid #e0e0e0"
+                    }}>
+                        <iframe
+                            src={GOOGLE_CALENDAR_EMBED_URL}
+                            style={{
+                                position: "absolute",
+                                top: 0,
+                                left: 0,
+                                width: "100%",
+                                height: "100%",
+                                border: "none",
+                                borderRadius: "10px"
+                            }}
+                            frameBorder="0"
+                            scrolling="no"
+                            title="ECE Club Calendar"
+                        />
+                    </div>
+                </div>
+            </MobileView>
+            
             <Typography sx={{ fontWeight: 'bold', color: "white", margin: "30px 30px -20px 30px" }} variant="h6">
                 Upcoming Events:
             </Typography>

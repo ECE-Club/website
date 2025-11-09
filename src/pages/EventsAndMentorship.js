@@ -23,7 +23,7 @@ function EventsAndMentorship() {
                     events={Events}
                     startAccessor="start"
                     endAccessor="end"
-                    style={{ height: 500, margin: "0px 30px 0px 30px", paddingTop: "20px", paddingBottom: "20px"}}
+                    style={{ height: 250, margin: "0px 30px 0px 30px", paddingTop: "20px", paddingBottom: "20px"}}
                 />
             </div>
             
