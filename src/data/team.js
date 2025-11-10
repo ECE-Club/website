@@ -1,397 +1,374 @@
+const filepath = "imgs/2t5_2t6_pics/";
 export default [
     {
-        picture: "imgs/Pics of 2T4-2T5/Medina.png",
-        name: "Medina Qaderi",
+        picture: filepath + "HarmitGoswami.webp",
+        name: "Harmit Goswami",
         role: "Co-Chair",
-        year: "2T4 + PEY",
+        year: "2T5+PEY",
         contact: [
-            "E-mail: medina.qaderi@mail.utoronto.ca",
-            "Discord: medina2134",
-            "Instagram: @medina.q"
+            "E-mail: harmit.goswami@mail.utoronto.ca",
+            "Discord: harmitcrab",
+            "Instagram: harmit.goswami"
         ]
     },
     {
-        picture: "imgs/Pics of 2T4-2T5/S C.jpg",
-        name: "Sam Chowdhury",
-        role: "Co-Chair, 4th Year Class Rep",
-        year: "2T4 + PEY",
+        picture: filepath + "AvaJakob.webp",
+        name: "Ava Jakob",
+        role: "Co-Chair",
+        year: "2T5+PEY",
         contact: [
-            "E-mail: sam.chowdhury@mail.utoronto.ca",
-            "Discord: 180gram",
-            "Instagram: @samn.c"
+            "E-mail: ava.jakob@mail.utoronto.ca",
+            "Discord: avajakob",
+            "Instagram: _ava_jakob"
         ]
     },
     {
-        picture: "imgs/Pics of 2T4-2T5/Danelle D_Souza.jpg",
-        name: "Danelle D'Souza",
+        picture: filepath + "LavneetSidhu.webp",
+        name: "Lavneet Sidhu",
         role: "Vice Chair",
-        year: "2T6",
+        year: "2T7+PEY",
         contact: [
-            "E-mail: danelle.dsouza@mail.utoronto.ca",
-            "Discord: hootexclamationmark",
-            "Instagram: @danelle._",
+            "E-mail: lavneet.singh@mail.utoronto.ca",
+            "Discord: la_la_la_",
+            "Instagram: lavneetsidhu"
         ]
     },
     {
-        picture: "imgs/Pics of 2T4-2T5/Agrim Sharma.jpeg",
+        picture: filepath + "placeholder.png",
         name: "Agrim Sharma",
         role: "Finance Director",
-        year: "2T6",
+        year: "2T6+PEY",
         contact: [
             "E-mail: agrim.sharma@mail.utoronto.ca",
             "Discord: heyreaper",
-            "Instagram: @_agrim.s"
+            "Instagram: _agrim.s"
         ]
     },
     {
-        picture: "imgs/Pics of 2T4-2T5/Wania.png",
-        name: "Wania Khalid",
+        picture: filepath + "CheickDoumbia.webp",
+        name: "Cheick Doumbia",
         role: "Academic Director",
+        year: "2T5+PEY",
+        contact: [
+            "E-mail: cheick.doumbia@mail.utoronto.ca",
+            "Discord: yatrios",
+            "Instagram: _cheickdoumbia"
+        ]
+    },
+    {
+        picture: filepath + "SelinaZarzour.webp",
+        name: "Selina Zarzour",
+        role: "Academic Director",
+        year: "2T7+PEY",
+        contact: [
+            "E-mail: selina.zarzour@mail.utoronto.ca",
+            "Discord: selina.zarzour",
+            "Instagram: selinazarzour"
+        ]
+    },
+    {
+        picture: filepath + "placeholder.png",
+        name: "Maria Hekimian",
+        role: "Specialty Events Director",
+        year: "2T5+PEY",
+        contact: [
+            "E-mail: maria.hekimian@mail.utoronto.ca",
+            "Discord: maria.h6140",
+            "Instagram: maria.hekimian"
+        ]
+    },
+    {
+        picture: filepath + "SehreenBasara.webp",
+        name: "Sehreen Basara",
+        role: "Specialty Events Director",
         year: "2T8",
         contact: [
-            "E-mail: wania.khalid@mail.utoronto.ca",
-            "Discord: idkwtisgoinon"
+            "E-mail: sehreen.basara@mail.utoronto.ca",
+            "Discord: SehreenB",
+            "Instagram: sbasarra"
         ]
     },
     {
-        picture: "imgs/Pics of 2T4-2T5/Jasmine Rosehart.png",
-        name: "Jasmine Rosehart",
-        role: "Academic Director",
-        year: "2T5 + 1",
-        contact: [
-            "E-mail: jasmine.rosehart@mail.utoronto.ca",
-            "Discord: jasminerosehart",
-            "Instagram: @jasminerosehart",
-        ]
-    },
-    {
-        picture: "imgs/Pics of 2T4-2T5/Dylan Ho.jpeg",
-        name: "Dylan Ho",
-        role: "Specialty Events Director",
-        year: "2T7",
-        contact: [
-            "E-mail: dylan.ho@mail.utoronto.ca",
-            "Discord: dyanh",
-            "Instagram: @dylanh.mp3"
-        ]
-    },
-    {
-        picture: "imgs/Pics of 2T4-2T5/Chloe Kentebe.png",
-        name: "Chloe Kentebe",
-        role: "Specialty Events Director",
-        year: "2T8",
-        contact: [
-            "E-mail: chloe.kentebe@mail.utoronto.ca",
-            "Discord: chloek77",
-            "Instagram: @chloekentebe"
-        ]
-    },
-    {
-        picture: "imgs/Pics of 2T4-2T5/Abby Lui.JPG",
-        name: "Abby Lui",
+        picture: filepath + "JasonMa.webp",
+        name: "Jason Ma",
         role: "General Events Director",
         year: "2T8",
         contact: [
-            "E-mail: abby.lui@mail.utoronto.ca",
-            "Instagram: @luiabby",
-            "Discord: amino0103"
+            "E-mail: yinghang.ma@mail.utoronto.ca",
+            "Discord: kuroto3850",
+            "Instagram: mjason0612"
         ]
     },
     {
-        picture: "imgs/Pics of 2T4-2T5/Ruhaab.jpg",
-        name: "Ruhaab Khan",
+        picture: filepath + "ZainNawaz.webp",
+        name: "Zain Nawaz",
         role: "General Events Director",
-        year: "2T5 + 1",
+        year: "2T8",
         contact: [
-            "E-mail: ruhaab.khan@mail.utoronto.ca",
-            "Instagram: @rk.x03",
-            "Discord: rk6310"
+            "E-mail: zain.nawaz@mail.utoronto.ca",
+            "Discord: zain523",
+            "Instagram: zainn_523"
         ]
     },
     {
-        picture: "imgs/Pics of 2T4-2T5/Hira Ali.jpg",
-        name: "Hira Ali",
+        picture: filepath + "YifeiChen.webp",
+        name: "Yifei Chen",
         role: "Social Media Director",
-        year: "2T7",
+        year: "2T8",
         contact: [
-            "E-mail: hiraali.ali@mail.utoronto.ca",
-            "Discord: hira4519",
-            "Instagram: @hira._a"
+            "E-mail: cfy.chen@mail.utoronto.ca",
+            "Discord: yifeichen0522",
+            "Instagram: yifeichen046"
         ]
     },
     {
-        picture: "imgs/Pics of 2T4-2T5/Parth Bhambi.jpeg",
+        picture: filepath + "placeholder.png",
         name: "Parth Bhambi",
         role: "Archivist",
         year: "2T8",
         contact: [
             "E-mail: parth.bhambi@mail.utoronto.ca",
-            "Instagram: @parth.425",
-            "Discord: parth.425"
+            "Discord: parthology",
+            "Instagram: parth.425"
         ]
     },
     {
-        picture: "imgs/Pics of 2T4-2T5/Grace Li.jpeg",
-        name: "Grace Li",
-        role: "Webmaster",
-        year: "2T7",
-        contact: [
-            "E-mail: xlgrace.li@mail.utoronto.ca",
-            "Instagram: @xlgraceli",
-            "Discord: lem.niy"
-        ]
-    },
-    {
-        picture: "imgs/Pics of 2T4-2T5/Raghav Kumar Prasad.jpg",
-        name: "Raghav Kumar Prasad",
-        role: "Webmaster",
-        year: "2T6",
-        contact: [
-            "E-mail: raghav.prasad@mail.utoronto.ca",
-            "Instagram: @raghavkumarprasad_04",
-            "Discord: ragbot_fuzzybrain"
-        ]
-    },
-    {
-        picture: "imgs/Pics of 2T4-2T5/Yifei Chen.JPG",
-        name: "Yifei Chen",
-        role: "External Relations Director",
-        year: "2T8",
-        contact: [
-            "E-mail: cfy.chen@mail.utoronto.ca",
-            "Discord: yifeichen0522"   
-        ]
-    },
-    {
-        picture: "imgs/Pics of 2T4-2T5/Lavneet S.jpeg",
-        name: "Lavneet Singh",
-        role: "External Relations Director",
-        year: "2T7",
-        contact: [
-            "E-mail: lavneet.singh@mail.utoronto.ca",
-            "Instagram: @lavneetsidhu",
-            "Discord: la_la_la_"
-        ]
-    },
-    {
-        picture: "imgs/Pics of 2T4-2T5/Karen Martin.jpg",
-        name: "Karen Martin",
-        role: "International Outreach",
-        year: "2T8",
-        contact: [
-            "E-mail: karensixuan.martin@mail.utoronto.ca",
-            "Discord: adorable_dragon_94595"
-        ]
-    },
-    {
-        picture: " ",
-        name: "Shaurya Benipuri",
-        role: "International Outreach",
-        year: "2T6",
-        contact: [
-            "E-mail: shaurya.benipuri@mail.utoronto.ca",
-            "Discord: shaurya._.ben",
-            "Instagram: @shaurya._.ben",
-        ]
-    },
-    {
-        picture: "imgs/Pics of 2T4-2T5/Eshaa Chenthuran.jpeg",
-        name: "Eshaa Chenthuran",
-        role: "Mentorship Director",
-        year: "2T6",
-        contact: [
-            "E-mail: eshaa.chenthuran@mail.utoronto.ca",
-            "Discord: wknnie"
-        ]
-    },
-    {
-        picture: "imgs/Pics of 2T4-2T5/Harshita Srikanth.jpg",
-        name: "Harshita Srikanth",
-        role: "Mentorship Director",
-        year: "2T8",
-        contact: [
-            "E-mail: harshita.srikanth@mail.utoronto.ca",
-            "Discord: hsrikanth"
-        ]
-    },
-    {
-        picture: "imgs/Pics of 2T4-2T5/Matthew Kong.jpg",
+        picture: filepath + "MatthewKong.webp",
         name: "Matthew Kong",
-        role: "Apparel Director",
+        role: "Webmaster",
         year: "2T8",
         contact: [
             "E-mail: matthew.kong@mail.utoronto.ca",
             "Discord: matthewkong",
-            "Instagram: @hynixcjr"
+            "Instagram: hynixcjr"
         ]
     },
     {
-        picture: "imgs/Pics of 2T4-2T5/Justin Fang.png",
+        picture: filepath + "JamesSheng.webp",
+        name: "James Sheng",
+        role: "Webmaster",
+        year: "2T8",
+        contact: [
+            "E-mail: james.sheng@mail.utoronto.ca",
+            "Discord: .ditsu",
+            "Instagram: james._.kys"
+        ]
+    },
+    {
+        picture: filepath + "MohammedSuwan.webp",
+        name: "Mohammed Suwan",
+        role: "Mentorship Director",
+        year: "2T7",
+        contact: [
+            "E-mail: mohammed.suwan@mail.utoronto.ca",
+            "Discord: suwan8426",
+            "Instagram: __suwan__"
+        ]
+    },
+    {
+        picture: filepath + "DuruTurkdonmez.webp",
+        name: "Duru Turkdonmez",
+        role: "Mentorship Director",
+        year: "2T7+PEY",
+        contact: [
+            "E-mail: duru.turkdonmez@mail.utoronto.ca",
+            "Discord: duruturkdonmez",
+            "Instagram: duruturkdonmez"
+        ]
+    },
+    {
+        picture: filepath + "LilyKim.webp",
+        name: "Lily Kim",
+        role: "Apparel Director",
+        year: "2T5+PEY",
+        contact: [
+            "E-mail: lilylily.kim@mail.utoronto.ca",
+            "Discord: lilyy2206",
+            "Instagram: jin_bbang319"
+        ]
+    },
+    {
+        picture: filepath + "JustinFang.webp",
         name: "Justin Fang",
         role: "Facilites Manager",
         year: "2T7",
         contact: [
             "E-mail: justin.fang@mail.utoronto.ca",
             "Discord: 1771justin",
-            "Instagram: @j.fang1"
+            "Instagram: 1771justin"
         ]
     },
     {
-        picture: " ",
-        name: "Ege Feyzioglu",
+        picture: filepath + "JustinFang.webp",
+        name: "Justin Fang",
         role: "EngSoc BoD",
-        year: "2T3 + ?",
+        year: "2T7",
         contact: [
-            "E-mail: ege.feyzioglu@mail.utoronto.ca",
-            "Discord: efeyzee",
-            "Instagram: @ege_f"
+            "E-mail: justin.fang@mail.utoronto.ca",
+            "Discord: 1771justin",
+            "Instagram: 1771justin"
         ]
     },
     {
-        picture: "imgs/Pics of 2T4-2T5/Ethan.jpg",
-        name: "Ethan Mao",
+        picture: filepath + "placeholder.png",
+        name: "Ayan Ali",
+        role: "EngSoc BoD",
+        year: "2T?",
+        contact: []
+    },
+    {
+        picture: filepath + "DaphneZhu.webp",
+        name: "Daphne Zhu",
         role: "1st Year Class Rep",
+        year: "2T9",
+        contact: [
+            "E-mail: daphne.zhu@mail.utoronto.ca",
+            "Discord: daphneee0107",
+            "Instagram: daphne_for_ece_class_rep"
+        ]
+    },
+    {
+        picture: filepath + "placeholder.png",
+        name: "Shelley Lin",
+        role: "1st Year Class Rep",
+        year: "2T9",
+        contact: [
+            "E-mail: shelley.lin@mail.utoronto.ca",
+            "Discord: sshelley",
+            "Instagram: sshelley.lin"
+        ]
+    },
+    {
+        picture: filepath + "placeholder.png",
+        name: "Sam Ghasemzadeh",
+        role: "1st Year Class Rep",
+        year: "2T9",
+        contact: [
+            "E-mail: sam.ghasemzadeh@mail.utoronto.ca",
+            "Discord: sam._.ghz",
+            "Instagram: its_samghz"
+        ]
+    },
+    {
+        picture: filepath + "EthanMao.webp",
+        name: "Ethan Mao",
+        role: "2nd Year Class Rep",
         year: "2T8",
         contact: [
             "E-mail: ethan.mao@mail.utoronto.ca",
-            "Discord: tabyelox"
+            "Discord: tabyelox",
+            "Instagram: ethan_mao__"
         ]
     },
     {
-        picture: "imgs/Pics of 2T4-2T5/Arnav.jpg",
+        picture: filepath + "ArnavAgarwal.webp",
         name: "Arnav Agarwal",
-        role: "1st Year Class Rep",
+        role: "2nd Year Class Rep",
         year: "2T8",
         contact: [
             "E-mail: aa.agarwal@mail.utoronto.ca",
             "Discord: arnav6252",
-            "Instagram: @arnyagarwal"
+            "Instagram: arnyagarwal"
         ]
     },
     {
-        picture: "",
-        name: "Antoine Tabet",
-        role: "1st Year Class Rep",
+        picture: filepath + "RashidMahmood.webp",
+        name: "Rashid Mahmood",
+        role: "2nd Year Class Rep",
         year: "2T8",
         contact: [
-            "E-mail: antoine.tabet@mail.utoronto.ca",
+            "E-mail: rashid.mahmood@mail.utoronto.ca",
+            "Discord: pinkcloudylight",
+            "Instagram: itzzrashidbro"
         ]
     },
     {
-        picture: "",
-        name: "Abdullah Rashid",
-        role: "1st Year Class Rep",
-        year: "2T8",
-        contact: [
-            "E-mail: antoine.tabet@mail.utoronto.ca",
-            "Discord: abdu4409, a_bdullah4409"
-        ]
-    },
-    {
-        picture: "imgs/Pics of 2T4-2T5/Vishwa.jpg",
+        picture: filepath + "VishwasPuri.webp",
         name: "Vishwas Puri",
-        role: "2nd Year Rep",
-        year: "2T7",
+        role: "3rd Year Class Rep",
+        year: "2T7+PEY",
         contact: [
             "E-mail: vishwas.puri@mail.utoronto.ca",
-            "Instagram: @vishwaspuri_official",
-            "Discord: vishwaspuri"
+            "Discord: vishwaspuri",
+            "Instagram: vishwaspuri_official"
         ]
     },
     {
-        picture: " ",
-        name: "Aarnav Chordia",
-        role: "2nd Year Rep",
-        year: "2T7",
+        picture: filepath + "placeholder.png",
+        name: "Gia Bejar",
+        role: "3rd Year Class Rep",
+        year: "2T7+PEY",
         contact: [
-            "E-mail: aarnav.chordia@mail.utoronto.ca",
-            "Discord: aarnavchordia"
+            "E-mail: g.bejaralvarez@mail.utoronto.ca",
+            "Discord: gbejar",
+            "Instagram: gianella.bejar"
         ]
     },
     {
-        picture: " ",
-        name: "Adam Abreha",
-        role: "2nd Year Rep",
-        year: "2T7",
+        picture: filepath + "FirdausAnsari.webp",
+        name: "Firdaus Ansari",
+        role: "3rd Year Class Rep",
+        year: "2T7+PEY",
         contact: [
-            "E-mail: adam.abreha@mail.utoronto.ca",
-            "Discord: thecan5384"
+            "E-mail: firdaus.ansari@mail.utoronto.ca",
+            "Discord: carameldude00",
+            "Instagram: prince_fashah"
         ]
     },
     {
-        picture: "imgs/Pics of 2T4-2T5/Samar Qureshi.jpg",
-        name: "Samar Qureshi",
-        role: "3d Year Rep",
-        year: "2T6",
-        contact: [
-            "E-mail: samarq713@gmail.com",
-            "Discord: samar.q"
-        ]
-    },
-    {
-        picture: "imgs/Pics of 2T4-2T5/Joe Dai.jpeg",
+        picture: filepath + "JoeDai.webp",
         name: "Joe Dai",
-        role: "3rd Year Rep",
-        year: "2T6",
+        role: "PEY Class Rep",
+        year: "2T6+PEY",
         contact: [
             "E-mail: jd.dai@mail.utoronto.ca",
-            "Instagram: @_joe.dai_",
-            "Discord: jdtech"
+            "Discord: jdtech",
+            "Instagram: _joe.dai_"
         ]
     },
     {
-        picture: "imgs/Pics of 2T4-2T5/Gaurika.png",
-        name: "Gaurika Mahajan",
-        role: "3rd Year Rep",
-        year: "2T6",
-        contact: [
-            "E-mail: gaurika.mahajan@mail.utoronto.ca",
-            "Instagram: @gaurika.mahajan",
-            "Discord: gaurikaaa"
-        ]
-    },
-    {
-        picture: "imgs/Pics of 2T4-2T5/Ken Hilton.png",
-        name: "Ken Hilton",
-        role: "PEY Class Rep",
-        year: "2T5 + PEY",
-        contact: [
-            "E-mail: ken.hilton@mail.utoronto.ca",
-            "Instagram: @abyxdev",
-            "Discord: abyxdev"
-        ]
-    },
-    {
-        picture: " ",
-        name: "Tudor Sigmund",
+        picture: filepath + "NidhiNair.webp",
+        name: "Nidhi Nair",
         role: "4th Year Class Rep",
-        year: "2T4 + PEY",
+        year: "2T5+PEY",
         contact: [
-            "E-mail: tudor.sigmund@mail.utoronto.ca",
-            "Instagram: @tsigmund66",
-            "Discord: .trondor"
+            "E-mail: nidhi.nair@mail.utoronto.ca",
+            "Discord: nidhinair23",
+            "Instagram: nidhinair23"
         ]
     },
     {
-        picture: "imgs/Pics of 2T4-2T5/Lalith Elangovan.jpg",
-        name: "Lalith Elangovan",
+        picture: filepath + "HannahLila.webp",
+        name: "Hannah Lila",
         role: "4th Year Class Rep",
-        year: "2T4 + PEY",
+        year: "2T5+PEY",
         contact: [
-            "E-mail: lalith.elangovan@mail.utoronto.ca",
-            "Instagram: @lalith.elangovan",
-            "Discord: rochshot23"
+            "E-mail: hannah.lila@mail.utoronto.ca",
+            "Discord: hl6939",
+            "Instagram: hhannahlila"
         ]
     },
     {
-        picture: "imgs/Pics of 2T4-2T5/Narender_Kheder.jpg",
-        name: "Narender Kheder",
+        picture: filepath + "AsimRahman.webp",
+        name: "Asim Rahman",
         role: "4th Year Class Rep",
-        year: "2T4 + PEY",
+        year: "2T5+PEY",
         contact: [
-            "E-mail: narender.kheder@mail.utoronto.ca",
-            "Instagram: @ninder.kh ",
-            "Discord: narender1807"
+            "E-mail: asim.rahman@mail.utoronto.ca",
+            "Discord: asim.615",
+            "Instagram: asim.rahman_"
+        ]
+    },
+    {
+        picture: filepath + "placeholder.png",
+        name: "Raida Fardous",
+        role: "4th Year Class Rep",
+        year: "2T5+PEY",
+        contact: [
+            "E-mail: raida.fardous@mail.utoronto.ca",
+            "Discord: rai7789",
+            "Instagram: raida.f_"
         ]
     }
+    
 ]
