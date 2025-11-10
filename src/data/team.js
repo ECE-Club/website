@@ -190,18 +190,7 @@ export default [
     {
         picture: filepath + "JustinFang.webp",
         name: "Justin Fang",
-        role: "Facilites Manager",
-        year: "2T7",
-        contact: [
-            "E-mail: justin.fang@mail.utoronto.ca",
-            "Discord: 1771justin",
-            "Instagram: 1771justin"
-        ]
-    },
-    {
-        picture: filepath + "JustinFang.webp",
-        name: "Justin Fang",
-        role: "EngSoc BoD",
+        role: "Facilites Manager + EngSoc BoD",
         year: "2T7",
         contact: [
             "E-mail: justin.fang@mail.utoronto.ca",
@@ -248,6 +237,13 @@ export default [
             "Discord: sam._.ghz",
             "Instagram: its_samghz"
         ]
+    },
+    {
+        picture: filepath + "JeffreyWong.webp",
+        name: "Jeffrey Wong",
+        role: "2nd Year Class Rep",
+        year: "2T8",
+        contact: []
     },
     {
         picture: filepath + "EthanMao.webp",
