@@ -268,7 +268,18 @@ export default [
         ]
     },
     {
-        picture: filepath + "RashidMahmood.webp",
+        picture: filepath + "AbdullahBinRashid.webp",
+        name: "Abdullah Bin Rashid",
+        role: "2nd Year Class Rep",
+        year: "2T8",
+        contact: [
+            "E-mail: abdullah.rashid@mail.utoronto.ca",
+            "Discord: xxxdaboss4409",
+            "Instagram: a.bdullahrashid"
+        ]
+    },
+    {
+        picture: filepath + "placeholder.png",
         name: "Rashid Mahmood",
         role: "2nd Year Class Rep",
         year: "2T8",
