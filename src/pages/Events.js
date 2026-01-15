@@ -96,6 +96,7 @@ function Events() {
             <Typography sx={{ color: "white", margin: "10px 30px 10px 30px" }} variant="h6">
                 Explore our catalogue of upcoming and past events, showcasing a spectrum of amazing events.
             </Typography>
+            
             <Typography sx={{ fontWeight: 'bold', color: "white", margin: "30px 30px -20px 30px" }} variant="h6">
                 Upcoming Events:
             </Typography>
