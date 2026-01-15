@@ -104,35 +104,29 @@ function Events() {
                 <div style={{ borderRadius: "20px", background: "white", padding: "20px", margin: "10px 30px 18px 30px" }}>
                     <Typography>
                         <div style={{ display: "flex", alignItems: "center" }}>
-                            <div onClick={() => goToUrl("https://docs.google.com/forms/d/1YA1mwKiwX8piGdrC7PJ7GPpY6cPCdDaGLDLckC2f_cA/viewform?edit_requested=true")}>
-                                <img src="/imgs/event_icons/PingPong.png" style={{ width: "140px", height: "140px" }} />                        
+                            <div onClick={() => goToUrl("https://www.tickettailor.com/events/ececlub1")}>
+                                <img src="/imgs/event_icons/ECEDinnerDanceVenue.png" style={{ width: "140px", height: "140px" }} />                        
                             </div>
                             <div style={{ marginLeft: "20px", width: "calc(100% - 160px)" }}>
                                 <Typography sx={{ cursor:'pointer', color: "#152a51", margin: "10px 0" }} variant="h5">
                                     <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
-                                        <div onClick={() => goToUrl("https://docs.google.com/forms/d/1YA1mwKiwX8piGdrC7PJ7GPpY6cPCdDaGLDLckC2f_cA/viewform?edit_requested=true")} style={{ fontWeight: 'bold' }}> Ping Pong Tournament </div>
-                                        <div style={{ textAlign: "right" }}> March 7th, 2025 </div>
+                                        <div onClick={() => goToUrl("https://www.tickettailor.com/events/ececlub1")} style={{ fontWeight: 'bold' }}> ECE Dinner Dance 2T6 </div>
+                                        <div style={{ textAlign: "right" }}> February 13th, 2026 </div>
                                     </div>
                                 </Typography>
                                 <Typography sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word" }} variant="h6">
                                     <div style={{textAlign: "justify"}}>
-                                    Midterm season got you stressed? Take a break and unwind with some friendly competition! A Ping Pong Tournament is happening AGAIN on <b>March 7th</b> from <b>6:00-7:30 PM</b> in the ECE Common Room 
-                                    (BA1120). 
+                                        Join us for an unforgettable evening at <u>Chateau Le Jardin</u> in Woodbridge, ON on <b>Friday, February 13th, 2026</b>! 
+                                        Experience an elegant night filled with delicious dining, premium drinks, live entertainment, and dancing. 
+                                        Don't miss out on this exclusive event - secure your spot now! 🎉
                                     </div>
                                 </Typography>
                                 <Typography
                                     sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word", textDecoration: 'underline', cursor: 'pointer' }}
                                     variant="h6"
-                                    onClick={() => goToUrl("https://docs.google.com/forms/d/1YA1mwKiwX8piGdrC7PJ7GPpY6cPCdDaGLDLckC2f_cA/viewform?edit_requested=true")}
+                                    onClick={() => goToUrl("https://www.tickettailor.com/events/ececlub1")}
                                 >
-                                    Sign up today!
-                                </Typography>
-                                <Typography
-                                    sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word", textDecoration: 'underline', cursor: 'pointer' }}
-                                    variant="h6"
-                                    onClick={() => goToUrl("https://www.instagram.com/p/DGyMXpNPv4m/?hl=en")}
-                                >
-                                    Check out our Instagram for more info!
+                                    Get your tickets today!
                                 </Typography>
                             </div>
                         </div>
@@ -143,33 +137,27 @@ function Events() {
                 <div style={{ borderRadius: "20px", background: "white", padding: "20px", margin: "10px 30px 18px 30px" }}>
                     <Typography>
                         <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
-                            <div onClick={() => goToUrl("https://docs.google.com/forms/d/1YA1mwKiwX8piGdrC7PJ7GPpY6cPCdDaGLDLckC2f_cA/viewform?edit_requested=true")}>
-                                <img src="/imgs/event_icons/PingPong.png" style={{ width: "200px", height: "200px" }} />                        
+                            <div onClick={() => goToUrl("https://www.tickettailor.com/events/ececlub1")}>
+                                <img src="/imgs/event_icons/ECEDinnerDanceVenue.png" style={{ width: "200px", height: "200px" }} />                        
                             </div>
                             <div style={{ marginTop: "10px", width: "100%" }}>
                                 <Typography sx={{ cursor:'pointer', color: "#152a51", margin: "5px 0" }} variant="h5">
-                                    <div onClick={() => goToUrl("https://docs.google.com/forms/d/1YA1mwKiwX8piGdrC7PJ7GPpY6cPCdDaGLDLckC2f_cA/viewform?edit_requested=true")} style={{ fontWeight: 'bold' }}> Ping Pong Tournament </div>
-                                    <div style={{ textAlign: "right" }}> March 7th, 2025 </div>
+                                    <div onClick={() => goToUrl("https://www.tickettailor.com/events/ececlub1")} style={{ fontWeight: 'bold', textAlign: "center"}}> ECE Dinner Dance 2T6 </div>
+                                    <div style={{ textAlign: "right" }}> February 13th, 2026 </div>
                                 </Typography>
                                 <Typography sx={{ color: "#152a51", margin: "5px 8px", overflowWrap: "break-word" }} variant="h7">
                                     <div style={{textAlign: "justify"}}>
-                                        Midterm season got you stressed? Take a break and unwind with some friendly competition! A Ping Pong Tournament is happening AGAIN on <b>March 7th</b> from <b>6:00-7:30 PM</b> in the ECE Common Room 
-                                        (BA1120). 
+                                        Join us for an unforgettable evening at <u>Chateau Le Jardin</u> in Woodbridge, ON on <b>Friday, February 13th, 2026</b>! 
+                                        Experience an elegant night filled with delicious dining, premium drinks, live entertainment, and dancing. 
+                                        Don't miss out on this exclusive event - secure your spot now! 🎉
                                     </div>
                                 </Typography>
                                 <Typography
                                     sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word", textDecoration: 'underline', cursor: 'pointer' }}
                                     variant="h6"
-                                    onClick={() => goToUrl("https://docs.google.com/forms/d/1YA1mwKiwX8piGdrC7PJ7GPpY6cPCdDaGLDLckC2f_cA/viewform?edit_requested=true")}
+                                    onClick={() => goToUrl("https://www.tickettailor.com/events/ececlub1")}
                                 >
-                                    Sign up today!
-                                </Typography>
-                                <Typography
-                                    sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word", textDecoration: 'underline', cursor: 'pointer' }}
-                                    variant="h6"
-                                    onClick={() => goToUrl("https://www.instagram.com/p/DGyMXpNPv4m/?hl=en")}
-                                >
-                                    Check out our Instagram for more info!
+                                    Get your tickets today!
                                 </Typography>
                             </div>
                         </div>
@@ -181,6 +169,56 @@ function Events() {
                 Past Events:
             </Typography>
             <br/>
+            <BrowserView>
+                <div style={{ borderRadius: "20px", background: "white", padding: "20px", margin: "10px 30px 18px 30px" }}>
+                    <Typography>
+                        <div style={{ display: "flex", alignItems: "center" }}>
+                            <div onClick={() => goToUrl("https://www.instagram.com/p/DGyMXpNPv4m/?hl=en")}>
+                                <img src="/imgs/event_icons/PingPong.png" style={{ width: "140px", height: "140px" }} />                        
+                            </div>
+                            <div style={{ marginLeft: "20px", width: "calc(100% - 160px)" }}>
+                                <Typography sx={{ cursor:'pointer', color: "#152a51", margin: "10px 0" }} variant="h5">
+                                    <div style={{ display: "flex", justifyContent: "space-between", alignItems: "center" }}>
+                                        <div onClick={() => goToUrl("https://www.instagram.com/p/DGyMXpNPv4m/?hl=en")} style={{ fontWeight: 'bold' }}> Ping Pong Tournament </div>
+                                        <div style={{ textAlign: "right" }}> March 7th, 2025 </div>
+                                    </div>
+                                </Typography>
+                                <Typography sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word" }} variant="h6">
+                                    <div style={{textAlign: "justify"}}>
+                                    Midterm season got you stressed? Take a break and unwind with some friendly competition! A Ping Pong Tournament is happening AGAIN on <b>March 7th</b> from <b>6:00-7:30 PM</b> in the ECE Common Room 
+                                    (BA1120). 
+                                    </div>
+                                </Typography>
+                            </div>
+                        </div>
+                    </Typography>
+                </div>
+            </BrowserView>
+            <MobileView>
+                <div style={{ borderRadius: "20px", background: "white", padding: "20px", margin: "10px 30px 18px 30px" }}>
+                    <Typography>
+                        <div style={{ display: "flex", flexDirection: "column", alignItems: "center" }}>
+                            <div onClick={() => goToUrl("https://www.instagram.com/p/DGyMXpNPv4m/?hl=en")}>
+                                <img src="/imgs/event_icons/PingPong.png" style={{ width: "200px", height: "200px" }} />                        
+                            </div>
+                            <div style={{ marginTop: "10px", width: "100%" }}>
+                                <Typography sx={{ cursor:'pointer', color: "#152a51", margin: "5px 0" }} variant="h5">
+                                    <div onClick={() => goToUrl("https://www.instagram.com/p/DGyMXpNPv4m/?hl=en")} style={{ fontWeight: 'bold', textAlign: "center"}}> Ping Pong Tournament </div>
+                                </Typography>
+                                <Typography sx={{ cursor:'pointer', color: "#152a51", margin: "-10px 0" }} variant="h6">
+                                    <div style={{ textAlign: "center" }}> March 7th, 2025 </div>
+                                </Typography>
+                                <Typography sx={{ color: "#152a51", margin: "5px 8px", overflowWrap: "break-word" }} variant="h7">
+                                    <div style={{textAlign: "justify"}}>
+                                    Midterm season got you stressed? Take a break and unwind with some friendly competition! A Ping Pong Tournament is happening AGAIN on <b>March 7th</b> from <b>6:00-7:30 PM</b> in the ECE Common Room 
+                                    (BA1120). 
+                                    </div>
+                                </Typography>
+                            </div>
+                        </div>
+                    </Typography>
+                </div>
+            </MobileView>
             <BrowserView>
                 <div style={{ borderRadius: "20px", background: "white", padding: "20px", margin: "10px 30px 18px 30px" }}>
                     <Typography>
@@ -201,20 +239,6 @@ function Events() {
                                         that can accommodate up to 400 guests. <br/> Tickets will include a 3-course meal, an open bar🥂, a DJ + music 🎶, and a photobooth to capture all the memories. Hurry before they're sold out! 💃
                                     </div>
                                 </Typography>
-                                <Typography
-                                    sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word", textDecoration: 'underline', cursor: 'pointer' }}
-                                    variant="h6"
-                                    onClick={() => goToUrl("https://www.tickettailor.com/events/ececlub/1523837")}
-                                >
-                                    Get your tickets today!
-                                </Typography>
-                                <Typography
-                                    sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word", textDecoration: 'underline', cursor: 'pointer' }}
-                                    variant="h6"
-                                    onClick={() => goToUrl("https://www.instagram.com/p/DEi2AE7vP61/?hl=en")}
-                                >
-                                    Check out our Instagram for more info!
-                                </Typography>
                             </div>
                         </div>
                     </Typography>
@@ -229,28 +253,16 @@ function Events() {
                             </div>
                             <div style={{ marginTop: "10px", width: "100%" }}>
                                 <Typography sx={{ cursor:'pointer', color: "#152a51", margin: "5px 0" }} variant="h5">
-                                    <div onClick={() => goToUrl("https://www.tickettailor.com/events/ececlub/1523837")} style={{ fontWeight: 'bold' }}> ECE Dinner Dance 2T5 </div>
-                                    <div style={{ textAlign: "right" }}> February 14th, 2025 </div>
+                                    <div onClick={() => goToUrl("https://www.tickettailor.com/events/ececlub/1523837")} style={{ fontWeight: 'bold', textAlign: "center"}}> ECE Dinner Dance 2T5 </div>
+                                </Typography>
+                                <Typography sx={{ cursor:'pointer', color: "#152a51", margin: "-10px 0" }} variant="h6">
+                                    <div style={{ textAlign: "center" }}> February 14th, 2025 </div>
                                 </Typography>
                                 <Typography sx={{ color: "#152a51", margin: "5px 8px", overflowWrap: "break-word" }} variant="h7">
                                     <div style={{textAlign: "justify"}}>
                                         <b>Mark your calendars: February 14th, 2025! </b> This year, we're hosting our event at the stunning <u> Chateau Le Jardin</u> in Woodbridge, ON 
                                         that can accommodate up to 400 guests. <br/> Tickets will include a 3-course meal, an open bar🥂, a DJ + music 🎶, and a photobooth to capture all the memories. Hurry before they're sold out! 💃
                                     </div>
-                                </Typography>
-                                <Typography
-                                    sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word", textDecoration: 'underline', cursor: 'pointer' }}
-                                    variant="h6"
-                                    onClick={() => goToUrl("https://www.tickettailor.com/events/ececlub/1523837")}
-                                >
-                                    Get your tickets today!
-                                </Typography>
-                                <Typography
-                                    sx={{ color: "#152a51", margin: "10px 0", overflowWrap: "break-word", textDecoration: 'underline', cursor: 'pointer' }}
-                                    variant="h6"
-                                    onClick={() => goToUrl("https://www.instagram.com/p/DEi2AE7vP61/?hl=en")}
-                                >
-                                    Check out our Instagram for more info!
                                 </Typography>
                             </div>
                         </div>
