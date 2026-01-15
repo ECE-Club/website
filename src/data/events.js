@@ -90,6 +90,13 @@ export default [
       title: "Multi-day Event",
       start: new Date(2015, 3, 20, 19, 30, 0),
       end: new Date(2015, 3, 22, 2, 0, 0)
+    },
+    {
+      id: 14,
+      title: "ECE Dinner Dance 2T6",
+      start: new Date(2026, 1, 13, 18, 0, 0),
+      end: new Date(2026, 1, 14, 1, 0, 0),
+      desc: "Join us for an unforgettable evening at Chateau Le Jardin in Woodbridge, ON"
     }
   ];
   
