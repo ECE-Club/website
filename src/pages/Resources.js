@@ -17,7 +17,7 @@ function Resources() {
             </Typography>
             <br/>
             <div style={{ borderRadius: "20px", background: "white", padding: "20px", margin: "10px 30px 18px 30px" }}>
-                <Typography onClick={() => goToUrl("https://docs.google.com/document/d/1_YZDNE1ODMwBik6ukCp-6s7zo2bXCEr9ls53k1fPM14/edit")} sx={{ cursor:'pointer', color: "#152a51", margin: "10px 30px 10px 30px" }} variant="h5">
+                <Typography onClick={() => goToUrl("https://docs.google.com/document/d/1h27XJJgVn1BLEZBKAUW7nLJZCLxkLktilktKQ-Bmlx4/")} sx={{ cursor:'pointer', color: "#152a51", margin: "10px 30px 10px 30px" }} variant="h5">
                     1. Our Constitution
                 </Typography>
                 <Typography sx={{ color: "#152a51", margin: "10px 30px 10px 30px" }} variant="h6">
