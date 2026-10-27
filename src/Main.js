@@ -1,6 +1,6 @@
 import React from 'react';
 import { Routes, Route, useLocation } from "react-router-dom";
-import { BrowserView, MobileView } from 'react-device-detect';
+import Navbar from './components/Navbar';
 import Home from './pages/Home';
 import AboutUs from './pages/AboutUs';
 import MeetTheTeam from './pages/MeetTheTeam';
@@ -8,8 +8,6 @@ import ContactUs from './pages/ContactUs'
 import Academics from './pages/Academics'
 import Resources from './pages/Resources'
 import EventsAndMentorship from './pages/EventsAndMentorship';
-import NavbarDesktop from './components/NavbarDesktop';
-import NavbarMobile from './components/NavbarMobile';
 import Footer from './components/Footer';
 import './App.css';
 import Events from './pages/Events';
@@ -35,14 +33,8 @@ function Main() {
 
   return (
     <div style={{backgroundColor}}>
-      <BrowserView>
-        <NavbarDesktop/>
-        <div style={{ height: "80px"}} />
-        </BrowserView>
-      <MobileView>
-        <NavbarMobile/>
-        <div style={{ height: "80px"}} />
-        </MobileView>
+      <Navbar />
+        <div style={{ height: "80px" }} />
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="aboutus" element={<AboutUs />} />
